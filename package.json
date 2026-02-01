@@ -1,0 +1,18 @@
+{
+  "name": "podpull",
+  "version": "1.0.0",
+  "description": "podpull is a tool for pulling audio from the web and publishing podcast feeds automatically",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.13.4",
+    "cheerio": "^1.2.0",
+    "rss": "^1.2.2"
+  }
+}
