@@ -16,16 +16,14 @@ async function main() {
     const existingSermons = await loadSermons(sermonsFilePath);
     console.log(`Found ${existingSermons.length} existing sermons\n`);
 
-    // Determine how many sermons to fetch
+    // Determine run type
     const isFirstRun = existingSermons.length === 0;
-    const maxSermons = isFirstRun ? 300 : 10; // Fetch 300 on first run, 10 for updates
+    console.log(`${isFirstRun ? 'First run' : 'Update run'}: Fetching all available sermons\n`);
 
-    console.log(`${isFirstRun ? 'First run' : 'Update run'}: Fetching up to ${maxSermons} sermons\n`);
-
-    // Scrape new sermons
+    // Scrape new sermons (no limit)
     let newSermons;
     try {
-      newSermons = await scrapeSermons(maxSermons);
+      newSermons = await scrapeSermons();
     } catch (error) {
       console.error('Scraping failed:', error.message);
       

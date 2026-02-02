@@ -7,12 +7,13 @@ This implementation provides a complete automated sermon podcast feed generator 
 ### Core Files
 
 1. **index.js** - Main orchestration script
-   - Handles first run (300 sermons) vs. incremental updates (10 sermons)
+   - Handles first run vs. incremental updates
    - Merges new and existing sermons
    - Generates RSS feed from sermon data
 
 2. **scraper.js** - Web scraping module
    - Scrapes sermon metadata from https://onefellowship.com/sermons/
+   - Looks for direct AWS/MonkCMS download links
    - Multiple fallback selectors for different website structures
    - Mock data generation for testing
    - Error handling with graceful degradation
@@ -46,13 +47,13 @@ This implementation provides a complete automated sermon podcast feed generator 
 
 ### First Run
 1. Detects no existing sermons.json
-2. Scrapes up to 300 sermons from the website
+2. Scrapes all available sermons from the website
 3. Generates initial RSS feed
 4. Commits feed.xml and sermons.json
 
 ### Subsequent Runs (Weekly)
 1. Loads existing sermons from sermons.json
-2. Fetches up to 10 new sermons
+2. Fetches all new sermons from the website
 3. Merges with existing (deduplicates by audio URL)
 4. Regenerates RSS feed with all sermons
 5. Commits updated files

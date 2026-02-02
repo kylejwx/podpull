@@ -12,7 +12,7 @@ podpull is a tool for pulling audio from the web and publishing podcast feeds au
 
 ## How It Works
 
-1. **First Run**: Scrapes up to 300 historical sermons from the church website
+1. **First Run**: Scrapes all available sermons from the church website
 2. **Weekly Updates**: Automatically fetches new sermons every Sunday at 2 AM UTC
 3. **RSS Generation**: Creates a podcast-compatible RSS feed with iTunes tags
 4. **GitHub Pages**: Feed is automatically committed and can be hosted via GitHub Pages
