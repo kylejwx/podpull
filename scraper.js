@@ -50,25 +50,38 @@ async function scrapeSermons() {
         // Skip if we've already found this URL
         if (foundLinks.has(fullUrl)) return;
         
-        // Only include AWS/MonkCMS links or mp3 files
-        if (fullUrl.includes('amazonaws.com') || 
-            fullUrl.includes('monkcms.com') || 
-            fullUrl.endsWith('.mp3')) {
+        // Validate URL and check hostname for AWS/MonkCMS links
+        try {
+          const urlObj = new URL(fullUrl);
+          const hostname = urlObj.hostname.toLowerCase();
           
-          foundLinks.add(fullUrl);
+          // Only include AWS/MonkCMS links or mp3 files
+          // Check that the domain is properly at the end of the hostname
+          // Accept exact match or subdomain (with a dot before the domain)
+          const isAWS = hostname === 'amazonaws.com' || hostname.endsWith('.amazonaws.com');
+          const isMonkCMS = hostname === 'monkcms.com' || hostname.endsWith('.monkcms.com');
+          const isMp3 = fullUrl.endsWith('.mp3');
           
-          // Extract sermon data from the element or its parent container
-          const $elem = $(elem).closest('article, .sermon, .sermon-item, .post, .entry');
-          
-          const sermon = {
-            title: extractTitle($, $elem.length > 0 ? $elem[0] : elem),
-            audioUrl: fullUrl,
-            description: extractDescription($, $elem.length > 0 ? $elem[0] : elem),
-            pubDate: extractDate($, $elem.length > 0 ? $elem[0] : elem),
-            link: extractLink($, $elem.length > 0 ? $elem[0] : elem, sermonsUrl)
-          };
+          if (isAWS || isMonkCMS || isMp3) {
+            
+            foundLinks.add(fullUrl);
+            
+            // Extract sermon data from the element or its parent container
+            const $elem = $(elem).closest('article, .sermon, .sermon-item, .post, .entry');
+            
+            const sermon = {
+              title: extractTitle($, $elem.length > 0 ? $elem[0] : elem),
+              audioUrl: fullUrl,
+              description: extractDescription($, $elem.length > 0 ? $elem[0] : elem),
+              pubDate: extractDate($, $elem.length > 0 ? $elem[0] : elem),
+              link: extractLink($, $elem.length > 0 ? $elem[0] : elem, sermonsUrl)
+            };
 
-          sermons.push(sermon);
+            sermons.push(sermon);
+          }
+        } catch (error) {
+          // Skip invalid URLs
+          console.warn(`Invalid URL skipped: ${fullUrl}`);
         }
       });
     }
