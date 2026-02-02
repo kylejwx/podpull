@@ -5,10 +5,10 @@ const path = require('path');
 
 /**
  * Scrape sermons from the church website
- * @param {number} maxSermons - Maximum number of sermons to fetch
+ * Looks for direct AWS/MonkCMS download links
  * @returns {Promise<Array>} Array of sermon objects
  */
-async function scrapeSermons(maxSermons = 300) {
+async function scrapeSermons() {
   const baseUrl = 'https://onefellowship.com';
   const sermonsUrl = `${baseUrl}/sermons/`;
   const sermons = [];
@@ -24,72 +24,56 @@ async function scrapeSermons(maxSermons = 300) {
 
     const $ = cheerio.load(response.data);
     
-    // Common selectors for sermon items - adjust based on actual website structure
-    const sermonSelectors = [
-      'article.sermon',
-      '.sermon-item',
-      '.post',
-      'article',
-      '.entry'
+    // Look for direct AWS/MonkCMS download links
+    // Pattern 1: MonkCMS download links (cms-production-backend.monkcms.com)
+    // Pattern 2: Direct S3 links (s3.amazonaws.com)
+    const awsLinkPatterns = [
+      'a[href*="cms-production-backend.monkcms.com"]',
+      'a[href*="s3.amazonaws.com"]',
+      'a[href*="amazonaws.com"]',
+      'a[href$=".mp3"]',
+      'audio source'
     ];
 
-    let sermonElements = null;
-    for (const selector of sermonSelectors) {
-      const elements = $(selector);
-      if (elements.length > 0) {
-        sermonElements = elements;
-        console.log(`Found ${elements.length} sermons using selector: ${selector}`);
-        break;
-      }
-    }
+    const foundLinks = new Set(); // Track unique audio URLs to avoid duplicates
 
-    if (!sermonElements || sermonElements.length === 0) {
-      console.log('No sermon elements found. Trying alternative approach...');
-      // Look for audio links as a fallback
-      $('a[href$=".mp3"], audio source').each((i, elem) => {
-        if (sermons.length >= maxSermons) return false;
-        
+    // Search for AWS/MonkCMS links
+    for (const pattern of awsLinkPatterns) {
+      $(pattern).each((i, elem) => {
         const audioUrl = $(elem).attr('href') || $(elem).attr('src');
-        if (audioUrl) {
-          const fullUrl = audioUrl.startsWith('http') ? audioUrl : `${baseUrl}${audioUrl}`;
-          sermons.push({
-            title: extractTitle($, elem),
+        
+        if (!audioUrl) return;
+        
+        // Normalize URL
+        const fullUrl = audioUrl.startsWith('http') ? audioUrl : `${baseUrl}${audioUrl}`;
+        
+        // Skip if we've already found this URL
+        if (foundLinks.has(fullUrl)) return;
+        
+        // Only include AWS/MonkCMS links or mp3 files
+        if (fullUrl.includes('amazonaws.com') || 
+            fullUrl.includes('monkcms.com') || 
+            fullUrl.endsWith('.mp3')) {
+          
+          foundLinks.add(fullUrl);
+          
+          // Extract sermon data from the element or its parent container
+          const $elem = $(elem).closest('article, .sermon, .sermon-item, .post, .entry');
+          
+          const sermon = {
+            title: extractTitle($, $elem.length > 0 ? $elem[0] : elem),
             audioUrl: fullUrl,
-            description: extractDescription($, elem),
-            pubDate: extractDate($, elem),
-            link: sermonsUrl
-          });
+            description: extractDescription($, $elem.length > 0 ? $elem[0] : elem),
+            pubDate: extractDate($, $elem.length > 0 ? $elem[0] : elem),
+            link: extractLink($, $elem.length > 0 ? $elem[0] : elem, sermonsUrl)
+          };
+
+          sermons.push(sermon);
         }
       });
-    } else {
-      // Process each sermon element
-      sermonElements.each((i, elem) => {
-        if (sermons.length >= maxSermons) return false;
-
-        const $elem = $(elem);
-        
-        // Find audio URL
-        const audioLink = $elem.find('a[href$=".mp3"], audio source').first();
-        const audioUrl = audioLink.attr('href') || audioLink.attr('src');
-        
-        if (!audioUrl) return; // Skip if no audio found
-
-        const fullAudioUrl = audioUrl.startsWith('http') ? audioUrl : `${baseUrl}${audioUrl}`;
-        
-        // Extract sermon data
-        const sermon = {
-          title: extractTitle($, elem),
-          audioUrl: fullAudioUrl,
-          description: extractDescription($, elem),
-          pubDate: extractDate($, elem),
-          link: extractLink($, elem, sermonsUrl)
-        };
-
-        sermons.push(sermon);
-      });
     }
 
-    console.log(`Successfully scraped ${sermons.length} sermons`);
+    console.log(`Successfully scraped ${sermons.length} sermons with AWS/MonkCMS links`);
     return sermons;
 
   } catch (error) {
@@ -98,7 +82,7 @@ async function scrapeSermons(maxSermons = 300) {
     // Return mock data for testing if scraping fails
     if (process.env.NODE_ENV === 'development' || process.env.USE_MOCK_DATA === 'true') {
       console.log('Returning mock sermon data for testing...');
-      return generateMockSermons(maxSermons);
+      return generateMockSermons(10);
     }
     
     throw error;
