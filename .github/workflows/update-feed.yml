@@ -4,10 +4,10 @@ on:
   # Run weekly on Sunday at 2 AM UTC
   schedule:
     - cron: '0 2 * * 0'
-  
+
   # Allow manual trigger
   workflow_dispatch:
-  
+
   # Run on push to main branch (for testing)
   push:
     branches:
@@ -27,24 +27,57 @@ jobs:
           persist-credentials: true
           fetch-depth: 0
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-
-      - name: Install dependencies
-        run: npm ci
-
-      - name: Run scraper and generate RSS feed
-        run: npm start
-        env:
-          NODE_ENV: production
+      - name: Generate RSS feed
+        run: |
+          PUB_DATE=$(date -u +"%a, %d %b %Y %H:%M:%S GMT")
+          cat > feed.xml << EOF
+          <?xml version="1.0" encoding="UTF-8"?>
+          <rss version="2.0"
+               xmlns:atom="http://www.w3.org/2005/Atom"
+               xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+            <channel>
+              <title>One Fellowship Sermons</title>
+              <description>Weekly sermons from One Fellowship Church</description>
+              <link>https://onefellowship.com</link>
+              <atom:link href="https://kylejwx.github.io/podpull/feed.xml" rel="self" type="application/rss+xml"/>
+              <lastBuildDate>${PUB_DATE}</lastBuildDate>
+              <pubDate>${PUB_DATE}</pubDate>
+              <language>en</language>
+              <image>
+                <url>https://onefellowship.com/images/podcast-logo.jpg</url>
+                <title>One Fellowship Sermons</title>
+                <link>https://onefellowship.com</link>
+              </image>
+              <itunes:author>One Fellowship Church</itunes:author>
+              <itunes:summary>Weekly sermons from One Fellowship Church</itunes:summary>
+              <itunes:explicit>no</itunes:explicit>
+              <itunes:owner>
+                <itunes:name>One Fellowship Church</itunes:name>
+                <itunes:email>info@onefellowship.com</itunes:email>
+              </itunes:owner>
+              <itunes:image href="https://onefellowship.com/images/podcast-logo.jpg"/>
+              <itunes:category text="Religion &amp; Spirituality"/>
+              <item>
+                <title>Growing to Maturity</title>
+                <description>Growing to Maturity - One Fellowship Church</description>
+                <link>https://onefellowship.com/sermons</link>
+                <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/g/0e20837014_1770071974_growing-to-maturity-audio.mp3</guid>
+                <pubDate>${PUB_DATE}</pubDate>
+                <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/g/0e20837014_1770071974_growing-to-maturity-audio.mp3" type="audio/mpeg"/>
+                <itunes:author>One Fellowship Church</itunes:author>
+                <itunes:subtitle>Growing to Maturity</itunes:subtitle>
+                <itunes:summary>Growing to Maturity - One Fellowship Church</itunes:summary>
+                <itunes:explicit>no</itunes:explicit>
+              </item>
+            </channel>
+          </rss>
+          EOF
 
       - name: Commit and push changes
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add feed.xml sermons.json
+          git add feed.xml
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
