@@ -132,41 +132,8 @@ async function scrapeSermons({ allPages = false } = {}) {
 
   } catch (error) {
     console.error('Error scraping sermons:', error.message);
-
-    if (process.env.NODE_ENV === 'development' || process.env.USE_MOCK_DATA === 'true') {
-      console.log('Returning mock sermon data for testing...');
-      return generateMockSermons(10);
-    }
-
     throw error;
   }
-}
-
-/**
- * Generate mock sermon data for testing
- */
-function generateMockSermons(count = 10) {
-  const sermons = [];
-  const topics = [
-    'Faith and Hope', 'Love One Another', 'Prayer and Worship',
-    'Grace and Mercy', 'The Gospel', 'Christian Living',
-    'Spiritual Growth', 'Community', 'Forgiveness', 'Salvation'
-  ];
-
-  for (let i = 0; i < count; i++) {
-    const date = new Date();
-    date.setDate(date.getDate() - (i * 7));
-
-    sermons.push({
-      title: `${topics[i % topics.length]} - Week ${Math.floor(i / topics.length) + 1}`,
-      audioUrl: `https://example.com/sermons/sermon-${i + 1}.mp3`,
-      description: `A message about ${topics[i % topics.length].toLowerCase()} and its importance in our daily walk with Christ.`,
-      pubDate: date,
-      link: `https://onefellowship.com/sermons/sermon-${i + 1}`
-    });
-  }
-
-  return sermons;
 }
 
 /**
@@ -204,6 +171,5 @@ async function loadSermons(filepath = 'sermons.json') {
 module.exports = {
   scrapeSermons,
   saveSermons,
-  loadSermons,
-  generateMockSermons
+  loadSermons
 };

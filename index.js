@@ -12,9 +12,10 @@ async function main() {
     const sermonsFilePath = path.join(__dirname, 'sermons.json');
     const feedFilePath = path.join(__dirname, 'feed.xml');
     
-    // Load existing sermons
-    const existingSermons = await loadSermons(sermonsFilePath);
-    console.log(`Found ${existingSermons.length} existing sermons\n`);
+    // Load existing sermons and filter out any invalid ones
+    let existingSermons = await loadSermons(sermonsFilePath);
+    existingSermons = filterValidSermons(existingSermons);
+    console.log(`Found ${existingSermons.length} valid existing sermons\n`);
 
     // Determine run type
     const isFirstRun = existingSermons.length === 0;
@@ -27,16 +28,8 @@ async function main() {
       newSermons = await scrapeSermons({ allPages });
     } catch (error) {
       console.error('Scraping failed:', error.message);
-      
-      // If scraping fails and we have no sermons, use mock data
-      if (existingSermons.length === 0) {
-        console.log('\nNo existing sermons and scraping failed. Using mock data for demonstration...');
-        const { generateMockSermons } = require('./scraper');
-        newSermons = generateMockSermons(20);
-      } else {
-        console.log('Using existing sermons data...');
-        newSermons = [];
-      }
+      console.log('Using existing sermons data...');
+      newSermons = [];
     }
 
     // Merge with existing sermons (avoiding duplicates)
@@ -79,6 +72,32 @@ async function main() {
 }
 
 /**
+ * Check if a sermon has a valid audio URL (not example.com or other placeholder)
+ * @param {Object} sermon - Sermon object
+ * @returns {boolean} True if the sermon has a valid audio URL
+ */
+function isValidSermon(sermon) {
+  if (!sermon.audioUrl) return false;
+  // Filter out example.com and other placeholder URLs
+  const invalidDomains = ['example.com', 'example.org', 'test.com'];
+  return !invalidDomains.some(domain => sermon.audioUrl.includes(domain));
+}
+
+/**
+ * Filter out sermons with invalid/placeholder audio URLs
+ * @param {Array} sermons - Array of sermon objects
+ * @returns {Array} Filtered array with only valid sermons
+ */
+function filterValidSermons(sermons) {
+  const validSermons = sermons.filter(isValidSermon);
+  const removed = sermons.length - validSermons.length;
+  if (removed > 0) {
+    console.log(`Filtered out ${removed} sermons with invalid/placeholder URLs`);
+  }
+  return validSermons;
+}
+
+/**
  * Merge new sermons with existing ones, removing duplicates
  * @param {Array} existing - Existing sermons
  * @param {Array} newSermons - Newly scraped sermons
@@ -110,4 +129,4 @@ if (require.main === module) {
   main();
 }
 
-module.exports = { main, mergeSermons };
+module.exports = { main, mergeSermons, filterValidSermons, isValidSermon };
