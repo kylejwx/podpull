@@ -23,7 +23,8 @@ async function main() {
     // Scrape new sermons (no limit)
     let newSermons;
     try {
-      newSermons = await scrapeSermons();
+      const allPages = process.env.SCRAPE_ALL_PAGES === 'true';
+      newSermons = await scrapeSermons({ allPages });
     } catch (error) {
       console.error('Scraping failed:', error.message);
       

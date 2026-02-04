@@ -1,173 +1,145 @@
 const axios = require('axios');
 const cheerio = require('cheerio');
 const fs = require('fs').promises;
-const path = require('path');
+
+const BASE_URL = 'https://onefellowship.com';
+const DELAY_MS = 1500;
+
+const httpClient = axios.create({
+  timeout: 15000,
+  headers: {
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+  }
+});
+
+function delay(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
 
 /**
- * Scrape sermons from the church website
- * Looks for direct AWS/MonkCMS download links
- * @returns {Promise<Array>} Array of sermon objects
+ * Scrape a single listing page (/sermons/?page=N) to get sermon titles, dates,
+ * and links to individual sermon pages. Also returns total page count from pagination.
  */
-async function scrapeSermons() {
-  const baseUrl = 'https://onefellowship.com';
-  const sermonsUrl = `${baseUrl}/sermons/`;
-  const sermons = [];
+async function scrapeListingPage(pageNum = 1) {
+  const url = pageNum === 1
+    ? `${BASE_URL}/sermons/`
+    : `${BASE_URL}/sermons/?page=${pageNum}&filtervars=`;
 
-  try {
-    console.log(`Fetching sermons from ${sermonsUrl}...`);
-    const response = await axios.get(sermonsUrl, {
-      timeout: 10000,
-      headers: {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
-      }
+  console.log(`Fetching listing page ${pageNum}...`);
+  const response = await httpClient.get(url);
+  const $ = cheerio.load(response.data);
+
+  const listings = [];
+  $('article').each((_i, el) => {
+    const $el = $(el);
+    const dateText = $el.find('h6').text().trim();
+    const $titleLink = $el.find('h4 a');
+    const title = $titleLink.text().trim();
+    const href = $titleLink.attr('href');
+
+    if (!title || !href) return;
+
+    listings.push({
+      title,
+      date: dateText,
+      url: href.startsWith('http') ? href : `${BASE_URL}${href}`
     });
+  });
 
-    const $ = cheerio.load(response.data);
-    
-    // Look for direct AWS/MonkCMS download links
-    // Pattern 1: MonkCMS download links (cms-production-backend.monkcms.com)
-    // Pattern 2: Direct S3 links (s3.amazonaws.com)
-    const awsLinkPatterns = [
-      'a[href*="cms-production-backend.monkcms.com"]',
-      'a[href*="s3.amazonaws.com"]',
-      'a[href*="amazonaws.com"]',
-      'a[href$=".mp3"]',
-      'audio source'
-    ];
+  // Parse total pages from pagination links
+  let totalPages = 1;
+  $('p#pagination a').each((_i, el) => {
+    const match = ($(el).attr('href') || '').match(/page=(\d+)/);
+    if (match) totalPages = Math.max(totalPages, parseInt(match[1], 10));
+  });
 
-    const foundLinks = new Set(); // Track unique audio URLs to avoid duplicates
+  return { listings, totalPages };
+}
 
-    // Search for AWS/MonkCMS links
-    for (const pattern of awsLinkPatterns) {
-      $(pattern).each((i, elem) => {
-        const audioUrl = $(elem).attr('href') || $(elem).attr('src');
-        
-        if (!audioUrl) return;
-        
-        // Normalize URL
-        const fullUrl = audioUrl.startsWith('http') ? audioUrl : `${baseUrl}${audioUrl}`;
-        
-        // Skip if we've already found this URL
-        if (foundLinks.has(fullUrl)) return;
-        
-        // Validate URL and check hostname for AWS/MonkCMS links
-        try {
-          const urlObj = new URL(fullUrl);
-          const hostname = urlObj.hostname.toLowerCase();
-          
-          // Only include AWS/MonkCMS links or mp3 files
-          // Check that the domain is properly at the end of the hostname
-          // Accept exact match or subdomain (with a dot before the domain)
-          const isAWS = hostname === 'amazonaws.com' || hostname.endsWith('.amazonaws.com');
-          const isMonkCMS = hostname === 'monkcms.com' || hostname.endsWith('.monkcms.com');
-          const isMp3 = fullUrl.endsWith('.mp3');
-          
-          if (isAWS || isMonkCMS || isMp3) {
-            
-            foundLinks.add(fullUrl);
-            
-            // Extract sermon data from the element or its parent container
-            const $elem = $(elem).closest('article, .sermon, .sermon-item, .post, .entry');
-            
-            const sermon = {
-              title: extractTitle($, $elem.length > 0 ? $elem[0] : elem),
-              audioUrl: fullUrl,
-              description: extractDescription($, $elem.length > 0 ? $elem[0] : elem),
-              pubDate: extractDate($, $elem.length > 0 ? $elem[0] : elem),
-              link: extractLink($, $elem.length > 0 ? $elem[0] : elem, sermonsUrl)
-            };
+/**
+ * Scrape an individual sermon page to extract the S3 audio URL.
+ *
+ * The listen button carries a data-audio attribute with this shape:
+ *   https://historian.ministrycloud.com/r/<base64-token>/https://s3.amazonaws.com/...
+ *
+ * We pull the S3 portion out of that compound URL.
+ */
+async function scrapeSermonAudio(url) {
+  console.log(`  Fetching audio URL from ${url}...`);
+  const response = await httpClient.get(url);
+  const $ = cheerio.load(response.data);
 
-            sermons.push(sermon);
-          }
-        } catch (error) {
-          // Skip invalid URLs
-          console.warn(`Invalid URL skipped: ${fullUrl}`);
-        }
+  const dataAudio = $('a[data-audio]').attr('data-audio');
+  if (dataAudio) {
+    const match = dataAudio.match(/(https:\/\/s3\.amazonaws\.com\/[^\s'"]+)/);
+    if (match) return match[1];
+  }
+
+  // Fallback: any direct S3 link on the page
+  let found = null;
+  $('a[href*="s3.amazonaws.com"]').each((_i, el) => {
+    if (!found) found = $(el).attr('href');
+  });
+
+  return found;
+}
+
+/**
+ * Main scrape entry point.
+ * @param {Object}  [options]
+ * @param {boolean} [options.allPages=false] - When true, scrape every listing page
+ *   (use for initial population). Default scrapes only page 1 (newest sermons).
+ */
+async function scrapeSermons({ allPages = false } = {}) {
+  try {
+    // --- Step 1: collect listings from the /sermons/ pages ---
+    const allListings = [];
+    const { listings, totalPages } = await scrapeListingPage(1);
+    allListings.push(...listings);
+
+    if (allPages) {
+      for (let page = 2; page <= totalPages; page++) {
+        await delay(DELAY_MS);
+        const { listings: more } = await scrapeListingPage(page);
+        allListings.push(...more);
+      }
+    }
+
+    console.log(`Found ${allListings.length} sermons across listing pages`);
+
+    // --- Step 2: visit each sermon page to get the S3 audio URL ---
+    const sermons = [];
+    for (const listing of allListings) {
+      await delay(DELAY_MS);
+
+      const audioUrl = await scrapeSermonAudio(listing.url);
+      if (!audioUrl) {
+        console.warn(`  No audio found for "${listing.title}" — skipping`);
+        continue;
+      }
+
+      sermons.push({
+        title: listing.title,
+        audioUrl,
+        description: `${listing.title} - One Fellowship Church`,
+        pubDate: new Date(listing.date),
+        link: listing.url
       });
     }
 
-    console.log(`Successfully scraped ${sermons.length} sermons with AWS/MonkCMS links`);
+    console.log(`Successfully scraped ${sermons.length} sermons with audio`);
     return sermons;
 
   } catch (error) {
     console.error('Error scraping sermons:', error.message);
-    
-    // Return mock data for testing if scraping fails
+
     if (process.env.NODE_ENV === 'development' || process.env.USE_MOCK_DATA === 'true') {
       console.log('Returning mock sermon data for testing...');
       return generateMockSermons(10);
     }
-    
+
     throw error;
   }
-}
-
-/**
- * Extract title from sermon element
- */
-function extractTitle($, elem) {
-  const $elem = $(elem);
-  
-  // Try various title selectors
-  const titleSelectors = ['h1', 'h2', 'h3', '.title', '.sermon-title', '.entry-title'];
-  for (const selector of titleSelectors) {
-    const title = $elem.find(selector).first().text().trim();
-    if (title) return title;
-  }
-  
-  // Fallback to link text
-  const linkText = $elem.find('a').first().text().trim();
-  if (linkText) return linkText;
-  
-  return 'Untitled Sermon';
-}
-
-/**
- * Extract description from sermon element
- */
-function extractDescription($, elem) {
-  const $elem = $(elem);
-  
-  // Try various description selectors
-  const descSelectors = ['.description', '.excerpt', '.summary', '.content', 'p'];
-  for (const selector of descSelectors) {
-    const desc = $elem.find(selector).first().text().trim();
-    if (desc && desc.length > 20) return desc;
-  }
-  
-  return '';
-}
-
-/**
- * Extract date from sermon element
- */
-function extractDate($, elem) {
-  const $elem = $(elem);
-  
-  // Try various date selectors
-  const dateSelectors = ['time', '.date', '.published', '.post-date'];
-  for (const selector of dateSelectors) {
-    const dateElem = $elem.find(selector).first();
-    const dateStr = dateElem.attr('datetime') || dateElem.text().trim();
-    if (dateStr) {
-      const date = new Date(dateStr);
-      if (!isNaN(date.getTime())) return date;
-    }
-  }
-  
-  return new Date(); // Default to current date
-}
-
-/**
- * Extract link from sermon element
- */
-function extractLink($, elem, defaultUrl) {
-  const $elem = $(elem);
-  const link = $elem.find('a').first().attr('href');
-  
-  if (!link) return defaultUrl;
-  
-  return link.startsWith('http') ? link : `https://onefellowship.com${link}`;
 }
 
 /**
@@ -183,8 +155,8 @@ function generateMockSermons(count = 10) {
 
   for (let i = 0; i < count; i++) {
     const date = new Date();
-    date.setDate(date.getDate() - (i * 7)); // One week apart
-    
+    date.setDate(date.getDate() - (i * 7));
+
     sermons.push({
       title: `${topics[i % topics.length]} - Week ${Math.floor(i / topics.length) + 1}`,
       audioUrl: `https://example.com/sermons/sermon-${i + 1}.mp3`,
