@@ -9,10 +9,10 @@
             <link>https://onefellowship.com</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 15 Feb 2026 04:18:58 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 22 Feb 2026 04:12:52 GMT</lastBuildDate>
         <atom:link href="https://kylejwx.github.io/podpull/feed.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[One Fellowship Church]]></author>
-        <pubDate>Sun, 15 Feb 2026 04:18:58 GMT</pubDate>
+        <pubDate>Sun, 22 Feb 2026 04:12:52 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
         <category><![CDATA[Religion & Spirituality]]></category>
@@ -26,6 +26,20 @@
         </itunes:owner>
         <itunes:image href="https://onefellowship.com/images/podcast-logo.jpg"/>
         <itunes:category text="Religion &amp; Spirituality"/>
+        <item>
+            <title><![CDATA[The Imitation Walk]]></title>
+            <description><![CDATA[The Imitation Walk - One Fellowship Church]]></description>
+            <link>https://onefellowship.com/sermon/the-imitation-walk</link>
+            <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/t/0e20908355_1771631980_the-imitation-walk-audio.mp3</guid>
+            <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
+            <pubDate>Sun, 15 Feb 2026 00:00:00 GMT</pubDate>
+            <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/t/0e20908355_1771631980_the-imitation-walk-audio.mp3" length="0" type="audio/mpeg"/>
+            <itunes:author>One Fellowship Church</itunes:author>
+            <itunes:subtitle>The Imitation Walk</itunes:subtitle>
+            <itunes:summary>The Imitation Walk - One Fellowship Church</itunes:summary>
+            <itunes:duration>00:00:00</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
         <item>
             <title><![CDATA[Growing to Maturity PTII]]></title>
             <description><![CDATA[Growing to Maturity PTII - One Fellowship Church]]></description>
