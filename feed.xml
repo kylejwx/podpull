@@ -9,10 +9,10 @@
             <link>https://onefellowship.com</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 18 Apr 2026 18:06:19 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 19 Apr 2026 04:48:08 GMT</lastBuildDate>
         <atom:link href="https://kylejwx.github.io/podpull/feed.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[One Fellowship Church]]></author>
-        <pubDate>Sat, 18 Apr 2026 18:06:19 GMT</pubDate>
+        <pubDate>Sun, 19 Apr 2026 04:48:08 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
         <category><![CDATA[Religion & Spirituality]]></category>
@@ -26,6 +26,20 @@
         </itunes:owner>
         <itunes:image href="https://onefellowship.com/images/podcast-logo.jpg"/>
         <itunes:category text="Religion &amp; Spirituality"/>
+        <item>
+            <title><![CDATA[The Power]]></title>
+            <description><![CDATA[The Power - One Fellowship Church]]></description>
+            <link>https://onefellowship.com/sermon/the-power</link>
+            <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/t/0e21043199_1776370881_the-powers-audio.mp3</guid>
+            <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
+            <pubDate>Sun, 12 Apr 2026 00:00:00 GMT</pubDate>
+            <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/t/0e21043199_1776370881_the-powers-audio.mp3" length="0" type="audio/mpeg"/>
+            <itunes:author>One Fellowship Church</itunes:author>
+            <itunes:subtitle>The Power</itunes:subtitle>
+            <itunes:summary>The Power - One Fellowship Church</itunes:summary>
+            <itunes:duration>00:00:00</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
         <item>
             <title><![CDATA[Do You Love Me?]]></title>
             <description><![CDATA[Do You Love Me? - One Fellowship Church]]></description>
