@@ -9,10 +9,10 @@
             <link>https://onefellowship.com</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 19 Apr 2026 04:48:08 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 26 Apr 2026 04:56:04 GMT</lastBuildDate>
         <atom:link href="https://kylejwx.github.io/podpull/feed.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[One Fellowship Church]]></author>
-        <pubDate>Sun, 19 Apr 2026 04:48:08 GMT</pubDate>
+        <pubDate>Sun, 26 Apr 2026 04:56:04 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
         <category><![CDATA[Religion & Spirituality]]></category>
@@ -26,6 +26,20 @@
         </itunes:owner>
         <itunes:image href="https://onefellowship.com/images/podcast-logo.jpg"/>
         <itunes:category text="Religion &amp; Spirituality"/>
+        <item>
+            <title><![CDATA[Titus: Built to Last]]></title>
+            <description><![CDATA[Titus: Built to Last - One Fellowship Church]]></description>
+            <link>https://onefellowship.com/sermon/titus-built-to-last</link>
+            <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/t/0e21055900_1776887552_titus-built-to-last-audio.mp3</guid>
+            <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
+            <pubDate>Sun, 19 Apr 2026 00:00:00 GMT</pubDate>
+            <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/t/0e21055900_1776887552_titus-built-to-last-audio.mp3" length="0" type="audio/mpeg"/>
+            <itunes:author>One Fellowship Church</itunes:author>
+            <itunes:subtitle>Titus: Built to Last</itunes:subtitle>
+            <itunes:summary>Titus: Built to Last - One Fellowship Church</itunes:summary>
+            <itunes:duration>00:00:00</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
         <item>
             <title><![CDATA[The Power]]></title>
             <description><![CDATA[The Power - One Fellowship Church]]></description>
