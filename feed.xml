@@ -9,10 +9,10 @@
             <link>https://onefellowship.com</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 03 May 2026 05:26:56 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 10 May 2026 05:33:31 GMT</lastBuildDate>
         <atom:link href="https://kylejwx.github.io/podpull/feed.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[One Fellowship Church]]></author>
-        <pubDate>Sun, 03 May 2026 05:26:56 GMT</pubDate>
+        <pubDate>Sun, 10 May 2026 05:33:31 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
         <category><![CDATA[Religion & Spirituality]]></category>
@@ -26,6 +26,20 @@
         </itunes:owner>
         <itunes:image href="https://onefellowship.com/images/podcast-logo.jpg"/>
         <itunes:category text="Religion &amp; Spirituality"/>
+        <item>
+            <title><![CDATA[Built in the Light]]></title>
+            <description><![CDATA[Built in the Light - One Fellowship Church]]></description>
+            <link>https://onefellowship.com/sermon/built-in-the-light</link>
+            <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/b/0e21081157_1778000649_built-in-the-light-audio.mp3</guid>
+            <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
+            <pubDate>Sun, 03 May 2026 00:00:00 GMT</pubDate>
+            <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/b/0e21081157_1778000649_built-in-the-light-audio.mp3" length="0" type="audio/mpeg"/>
+            <itunes:author>One Fellowship Church</itunes:author>
+            <itunes:subtitle>Built in the Light</itunes:subtitle>
+            <itunes:summary>Built in the Light - One Fellowship Church</itunes:summary>
+            <itunes:duration>00:00:00</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
         <item>
             <title><![CDATA[Built Together]]></title>
             <description><![CDATA[Built Together - One Fellowship Church]]></description>
