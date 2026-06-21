@@ -9,10 +9,10 @@
             <link>https://onefellowship.com</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 14 Jun 2026 06:33:14 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 21 Jun 2026 06:47:07 GMT</lastBuildDate>
         <atom:link href="https://kylejwx.github.io/podpull/feed.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[One Fellowship Church]]></author>
-        <pubDate>Sun, 14 Jun 2026 06:33:14 GMT</pubDate>
+        <pubDate>Sun, 21 Jun 2026 06:47:07 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
         <category><![CDATA[Religion & Spirituality]]></category>
@@ -26,6 +26,20 @@
         </itunes:owner>
         <itunes:image href="https://onefellowship.com/images/podcast-logo.jpg"/>
         <itunes:category text="Religion &amp; Spirituality"/>
+        <item>
+            <title><![CDATA[Two Paths: One King]]></title>
+            <description><![CDATA[Two Paths: One King - One Fellowship Church]]></description>
+            <link>https://onefellowship.com/sermon/two-paths-one-king</link>
+            <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/t/0e21184263_1781556248_two-paths-one-king-audio.mp3</guid>
+            <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
+            <pubDate>Sun, 14 Jun 2026 00:00:00 GMT</pubDate>
+            <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/t/0e21184263_1781556248_two-paths-one-king-audio.mp3" length="0" type="audio/mpeg"/>
+            <itunes:author>One Fellowship Church</itunes:author>
+            <itunes:subtitle>Two Paths: One King</itunes:subtitle>
+            <itunes:summary>Two Paths: One King - One Fellowship Church</itunes:summary>
+            <itunes:duration>00:00:00</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
         <item>
             <title><![CDATA[Two Paths: The Blessed Way]]></title>
             <description><![CDATA[Two Paths: The Blessed Way - One Fellowship Church]]></description>
