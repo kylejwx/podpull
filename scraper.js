@@ -1,6 +1,7 @@
 const axios = require('axios');
 const cheerio = require('cheerio');
 const fs = require('fs').promises;
+const { dateFromPreachedDate, parsePreachedDate } = require('./date-utils');
 
 const BASE_URL = 'https://onefellowship.com';
 const DELAY_MS = 1500;
@@ -27,7 +28,11 @@ async function scrapeListingPage(pageNum = 1) {
 
   console.log(`Fetching listing page ${pageNum}...`);
   const response = await httpClient.get(url);
-  const $ = cheerio.load(response.data);
+  return parseListingPage(response.data);
+}
+
+function parseListingPage(html) {
+  const $ = cheerio.load(html);
 
   const listings = [];
   $('article').each((_i, el) => {
@@ -67,7 +72,11 @@ async function scrapeListingPage(pageNum = 1) {
 async function scrapeSermonAudio(url) {
   console.log(`  Fetching audio URL from ${url}...`);
   const response = await httpClient.get(url);
-  const $ = cheerio.load(response.data);
+  return parseSermonAudio(response.data);
+}
+
+function parseSermonAudio(html) {
+  const $ = cheerio.load(html);
 
   const dataAudio = $('a[data-audio]').attr('data-audio');
   if (dataAudio) {
@@ -118,11 +127,13 @@ async function scrapeSermons({ allPages = false } = {}) {
         continue;
       }
 
+      const preachedDate = parsePreachedDate(listing.date);
       sermons.push({
         title: listing.title,
         audioUrl,
         description: `${listing.title} - One Fellowship Church`,
-        pubDate: new Date(listing.date),
+        preachedDate,
+        pubDate: dateFromPreachedDate(preachedDate).toISOString(),
         link: listing.url
       });
     }
@@ -171,5 +182,7 @@ async function loadSermons(filepath = 'sermons.json') {
 module.exports = {
   scrapeSermons,
   saveSermons,
-  loadSermons
+  loadSermons,
+  parseListingPage,
+  parseSermonAudio
 };

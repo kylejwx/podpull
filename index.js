@@ -1,5 +1,6 @@
 const { scrapeSermons, saveSermons, loadSermons } = require('./scraper');
 const { generateRSSFeed, saveFeed, validateFeed } = require('./rss-generator');
+const { getSermonDate, normalizeSermonDate } = require('./date-utils');
 const path = require('path');
 
 /**
@@ -13,7 +14,7 @@ async function main() {
     const feedFilePath = path.join(__dirname, 'feed.xml');
     
     // Load existing sermons and filter out any invalid ones
-    let existingSermons = await loadSermons(sermonsFilePath);
+    let existingSermons = (await loadSermons(sermonsFilePath)).map(normalizeSermonDate);
     existingSermons = filterValidSermons(existingSermons);
     console.log(`Found ${existingSermons.length} valid existing sermons\n`);
 
@@ -104,20 +105,20 @@ function filterValidSermons(sermons) {
  * @returns {Array} Merged sermon list
  */
 function mergeSermons(existing, newSermons) {
-  const merged = [...existing];
-  const existingUrls = new Set(existing.map(s => s.audioUrl));
+  const merged = existing.map(normalizeSermonDate);
+  const existingUrls = new Set(merged.map(s => s.audioUrl));
 
   for (const sermon of newSermons) {
     if (!existingUrls.has(sermon.audioUrl)) {
-      merged.push(sermon);
+      merged.push(normalizeSermonDate(sermon));
       existingUrls.add(sermon.audioUrl);
     }
   }
 
   // Sort by date (newest first)
   merged.sort((a, b) => {
-    const dateA = new Date(a.pubDate);
-    const dateB = new Date(b.pubDate);
+    const dateA = getSermonDate(a);
+    const dateB = getSermonDate(b);
     return dateB - dateA;
   });
 

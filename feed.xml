@@ -9,10 +9,10 @@
             <link>https://onefellowship.com</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 12 Jul 2026 05:23:09 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 16 Jul 2026 04:56:44 GMT</lastBuildDate>
         <atom:link href="https://kylejwx.github.io/podpull/feed.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[One Fellowship Church]]></author>
-        <pubDate>Sun, 12 Jul 2026 05:23:09 GMT</pubDate>
+        <pubDate>Sun, 05 Jul 2026 12:00:00 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
         <category><![CDATA[Religion & Spirituality]]></category>
@@ -32,7 +32,7 @@
             <link>https://onefellowship.com/sermon/sabbath-in-the-schemes</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/s/0e21234696_1783390644_sabbath-in-the-schemes-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 05 Jul 2026 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 05 Jul 2026 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/s/0e21234696_1783390644_sabbath-in-the-schemes-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Sabbath in the Schemes</itunes:subtitle>
@@ -46,7 +46,7 @@
             <link>https://onefellowship.com/sermon/protected-by-choice</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/p/0e21220406_1782836894_protected-by-choice-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 28 Jun 2026 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 28 Jun 2026 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/p/0e21220406_1782836894_protected-by-choice-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Protected by Choice</itunes:subtitle>
@@ -60,7 +60,7 @@
             <link>https://onefellowship.com/sermon/surrounded</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/s/0e21205210_1782237472_surrounded-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 21 Jun 2026 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 21 Jun 2026 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/s/0e21205210_1782237472_surrounded-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Surrounded</itunes:subtitle>
@@ -74,7 +74,7 @@
             <link>https://onefellowship.com/sermon/two-paths-one-king</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/t/0e21184263_1781556248_two-paths-one-king-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 14 Jun 2026 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 14 Jun 2026 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/t/0e21184263_1781556248_two-paths-one-king-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Two Paths: One King</itunes:subtitle>
@@ -88,7 +88,7 @@
             <link>https://onefellowship.com/sermon/two-paths-the-blessed-way</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/t/0e21172732_1781135563_two-paths-the-blessed-way-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 07 Jun 2026 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 07 Jun 2026 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/t/0e21172732_1781135563_two-paths-the-blessed-way-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Two Paths: The Blessed Way</itunes:subtitle>
@@ -102,7 +102,7 @@
             <link>https://onefellowship.com/sermon/the-hand-off</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/t/0e21159521_1780682681_the-hand-off-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 31 May 2026 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 31 May 2026 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/t/0e21159521_1780682681_the-hand-off-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>The Hand Off</itunes:subtitle>
@@ -116,7 +116,7 @@
             <link>https://onefellowship.com/sermon/the-god-who-knows-our-context</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/t/0e21127384_1779926448_the-god-who-knows-our-context-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 24 May 2026 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/t/0e21127384_1779926448_the-god-who-knows-our-context-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>The God Who Knows Our Context</itunes:subtitle>
@@ -130,7 +130,7 @@
             <link>https://onefellowship.com/sermon/standing-firm</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/s/0e21107977_1779124757_standing-firm-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 17 May 2026 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 17 May 2026 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/s/0e21107977_1779124757_standing-firm-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Standing Firm</itunes:subtitle>
@@ -144,7 +144,7 @@
             <link>https://onefellowship.com/sermon/built-for-display</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/b/0e21096105_1778608948_built-for-display-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 10 May 2026 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 10 May 2026 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/b/0e21096105_1778608948_built-for-display-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Built For Display</itunes:subtitle>
@@ -158,7 +158,7 @@
             <link>https://onefellowship.com/sermon/built-in-the-light</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/b/0e21081157_1778000649_built-in-the-light-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 03 May 2026 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 03 May 2026 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/b/0e21081157_1778000649_built-in-the-light-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Built in the Light</itunes:subtitle>
@@ -172,7 +172,7 @@
             <link>https://onefellowship.com/sermon/built-together</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/b/0e21067723_1777404141_built-together-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 26 Apr 2026 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 26 Apr 2026 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/b/0e21067723_1777404141_built-together-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Built Together</itunes:subtitle>
@@ -186,7 +186,7 @@
             <link>https://onefellowship.com/sermon/titus-built-to-last</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/t/0e21055900_1776887552_titus-built-to-last-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 19 Apr 2026 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 19 Apr 2026 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/t/0e21055900_1776887552_titus-built-to-last-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Titus: Built to Last</itunes:subtitle>
@@ -200,7 +200,7 @@
             <link>https://onefellowship.com/sermon/the-power</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/t/0e21043199_1776370881_the-powers-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 12 Apr 2026 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 12 Apr 2026 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/t/0e21043199_1776370881_the-powers-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>The Power</itunes:subtitle>
@@ -214,7 +214,7 @@
             <link>https://onefellowship.com/sermon/do-you-love-me</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/d/0e21024190_1775708076_do-you-love-me-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 05 Apr 2026 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 05 Apr 2026 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/d/0e21024190_1775708076_do-you-love-me-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Do You Love Me?</itunes:subtitle>
@@ -228,7 +228,7 @@
             <link>https://onefellowship.com/sermon/who-are-you-looking-for</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/w/0e21004730_1774997619_who-are-you-looking-for-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 29 Mar 2026 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 29 Mar 2026 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/w/0e21004730_1774997619_who-are-you-looking-for-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Who Are You Looking For?</itunes:subtitle>
@@ -242,7 +242,7 @@
             <link>https://onefellowship.com/sermon/as-unto-the-lord</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/a/0e20969846_1773697367_as-unto-the-lord-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 15 Mar 2026 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 15 Mar 2026 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/a/0e20969846_1773697367_as-unto-the-lord-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>As Unto the Lord</itunes:subtitle>
@@ -256,7 +256,7 @@
             <link>https://onefellowship.com/sermon/the-urgency-of-accuracy</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/t/0e20960556_1773364349_the-urgency-of-accuracy-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 08 Mar 2026 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 08 Mar 2026 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/t/0e20960556_1773364349_the-urgency-of-accuracy-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>The Urgency of Accuracy</itunes:subtitle>
@@ -270,7 +270,7 @@
             <link>https://onefellowship.com/sermon/a-buoy-for-the-family</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/a/0e20935379_1772491110_a-buoy-for-the-family-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 01 Mar 2026 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 01 Mar 2026 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/a/0e20935379_1772491110_a-buoy-for-the-family-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>A Buoy for the Family</itunes:subtitle>
@@ -284,7 +284,7 @@
             <link>https://onefellowship.com/sermon/new-rules-for-the-new-community</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/n/0e20916092_1771881553_new-rules-for-the-new-community-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 22 Feb 2026 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 22 Feb 2026 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/n/0e20916092_1771881553_new-rules-for-the-new-community-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>New Rules for the New Community</itunes:subtitle>
@@ -298,7 +298,7 @@
             <link>https://onefellowship.com/sermon/the-imitation-walk</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/t/0e20908355_1771631980_the-imitation-walk-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 15 Feb 2026 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 15 Feb 2026 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/t/0e20908355_1771631980_the-imitation-walk-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>The Imitation Walk</itunes:subtitle>
@@ -312,7 +312,7 @@
             <link>https://onefellowship.com/sermon/growing-to-maturity-ptii</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/g/0e20867383_1770781122_growing-to-maturity-ptii-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 08 Feb 2026 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 08 Feb 2026 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/g/0e20867383_1770781122_growing-to-maturity-ptii-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Growing to Maturity PTII</itunes:subtitle>
@@ -326,7 +326,7 @@
             <link>https://onefellowship.com/sermon/growing-to-maturity</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/g/0e20837014_1770071974_growing-to-maturity-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 01 Feb 2026 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 01 Feb 2026 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/g/0e20837014_1770071974_growing-to-maturity-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Growing to Maturity</itunes:subtitle>
@@ -340,7 +340,7 @@
             <link>https://onefellowship.com/sermon/the-kings-gifts</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/t/0e20796386_1769024821_the-kings-gifts-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 18 Jan 2026 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 18 Jan 2026 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/t/0e20796386_1769024821_the-kings-gifts-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>The King&apos;s Gifts</itunes:subtitle>
@@ -354,7 +354,7 @@
             <link>https://onefellowship.com/sermon/one-faith-the-theology-of-unity</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/o/0e20775651_1768254254_one-faith-the-theology-of-unity-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 11 Jan 2026 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 11 Jan 2026 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/o/0e20775651_1768254254_one-faith-the-theology-of-unity-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>One Faith: The Theology of Unity</itunes:subtitle>
@@ -368,7 +368,7 @@
             <link>https://onefellowship.com/sermon/the-character-of-unity</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/t/0e20756382_1767653689_the-character-of-unity-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 04 Jan 2026 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 04 Jan 2026 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/t/0e20756382_1767653689_the-character-of-unity-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>The Character of Unity</itunes:subtitle>
@@ -382,7 +382,7 @@
             <link>https://onefellowship.com/sermon/responding-to-the-gift</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/r/0e20748042_1767499240_responding-to-the-gift-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 28 Dec 2025 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 28 Dec 2025 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/r/0e20748042_1767499240_responding-to-the-gift-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Responding to the Gift</itunes:subtitle>
@@ -396,7 +396,7 @@
             <link>https://onefellowship.com/sermon/christmas-eve-ofc-2025</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/c/0e20730820_1766866905_christmas-eve-ofc-2025-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Wed, 24 Dec 2025 00:00:00 GMT</pubDate>
+            <pubDate>Wed, 24 Dec 2025 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/c/0e20730820_1766866905_christmas-eve-ofc-2025-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Christmas Eve @OFC 2025</itunes:subtitle>
@@ -410,7 +410,7 @@
             <link>https://onefellowship.com/sermon/keep-your-eyes-on-him-a-posture-of-advent</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/k/0e20730751_1766863228_keep-your-eyes-on-him-a-poster-of-advent-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 21 Dec 2025 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 21 Dec 2025 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/k/0e20730751_1766863228_keep-your-eyes-on-him-a-poster-of-advent-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Keep Your Eyes On Him: A Posture Of Advent</itunes:subtitle>
@@ -424,7 +424,7 @@
             <link>https://onefellowship.com/sermon/good-news-people</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/g/0e20641985_1764778303_good-news-people-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 30 Nov 2025 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 30 Nov 2025 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/g/0e20641985_1764778303_good-news-people-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Good News People</itunes:subtitle>
@@ -438,7 +438,7 @@
             <link>https://onefellowship.com/sermon/go-through-samaria</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/g/0e20641946_1764777645_gothroughsamariaaudio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 23 Nov 2025 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 23 Nov 2025 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/g/0e20641946_1764777645_gothroughsamariaaudio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Go Through Samaria</itunes:subtitle>
@@ -452,7 +452,7 @@
             <link>https://onefellowship.com/sermon/abundant-renovation</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/a/0e20601773_1763407464_abundant-renovation-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 16 Nov 2025 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 16 Nov 2025 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/a/0e20601773_1763407464_abundant-renovation-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Abundant Renovation</itunes:subtitle>
@@ -466,7 +466,7 @@
             <link>https://onefellowship.com/sermon/gospel-ministry</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/g/0e20592675_1763161507_gospel-ministry-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 09 Nov 2025 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 09 Nov 2025 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/g/0e20592675_1763161507_gospel-ministry-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Gospel Ministry</itunes:subtitle>
@@ -480,7 +480,7 @@
             <link>https://onefellowship.com/sermon/transformed-by-abundant-grace-pt-2</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/t/0e20564078_1762450629_transformed-by-abundant-grace-pt-2-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 02 Nov 2025 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 02 Nov 2025 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/t/0e20564078_1762450629_transformed-by-abundant-grace-pt-2-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Transformed by Abundant Grace  Pt 2</itunes:subtitle>
@@ -494,7 +494,7 @@
             <link>https://onefellowship.com/sermon/transformed-by-abundant-grace</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/t/0e20550162_1762030541_transformed-by-abundant-grace-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 26 Oct 2025 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 26 Oct 2025 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/t/0e20550162_1762030541_transformed-by-abundant-grace-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Transformed by Abundant Grace</itunes:subtitle>
@@ -508,7 +508,7 @@
             <link>https://onefellowship.com/sermon/all-new-things</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/a/0e20517766_1761145844_all-things-new1.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 19 Oct 2025 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 19 Oct 2025 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/a/0e20517766_1761145844_all-things-new1.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>All New Things</itunes:subtitle>
@@ -522,7 +522,7 @@
             <link>https://onefellowship.com/sermon/while-supplies-last</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/w/0e20507158_1760842589_while-supplies-last-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 12 Oct 2025 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 12 Oct 2025 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/w/0e20507158_1760842589_while-supplies-last-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>While Supplies Last</itunes:subtitle>
@@ -536,7 +536,7 @@
             <link>https://onefellowship.com/sermon/built-to-last</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/b/0e20488475_1760135090_built-to-last-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 05 Oct 2025 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 05 Oct 2025 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/b/0e20488475_1760135090_built-to-last-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Built to Last</itunes:subtitle>
@@ -550,7 +550,7 @@
             <link>https://onefellowship.com/sermon/your-capacity-matters</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/y/0e20454620_1759348092_you-capacity-matters-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 28 Sep 2025 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 28 Sep 2025 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/y/0e20454620_1759348092_you-capacity-matters-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Your Capacity Matters</itunes:subtitle>
@@ -564,7 +564,7 @@
             <link>https://onefellowship.com/sermon/in-him-on-us-part-2</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/i/0e20439216_1758902717_in-him-on-us-part-2-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 21 Sep 2025 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 21 Sep 2025 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/i/0e20439216_1758902717_in-him-on-us-part-2-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>In Him On Us Part 2</itunes:subtitle>
@@ -578,7 +578,7 @@
             <link>https://onefellowship.com/sermon/in-him-on-us-pt1</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/i/0e20395852_1758212641_in-him-on-us-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 14 Sep 2025 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 14 Sep 2025 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/i/0e20395852_1758212641_in-him-on-us-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>In Him On Us Pt.1</itunes:subtitle>
@@ -592,7 +592,7 @@
             <link>https://onefellowship.com/sermon/abundantly-more</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/a/0e20391264_1758060523_abundantly-more-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 07 Sep 2025 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 07 Sep 2025 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/a/0e20391264_1758060523_abundantly-more-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Abundantly More</itunes:subtitle>
@@ -606,7 +606,7 @@
             <link>https://onefellowship.com/sermon/committed-to-the-destination</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/c/0e20274055_1756936875_committed-to-the-destination-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 31 Aug 2025 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 31 Aug 2025 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/c/0e20274055_1756936875_committed-to-the-destination-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Committed to the Destination</itunes:subtitle>
@@ -620,7 +620,7 @@
             <link>https://onefellowship.com/sermon/committed-to-transformation</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/c/0e20236465_1756138855_committed-to-transformation-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 24 Aug 2025 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 24 Aug 2025 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/c/0e20236465_1756138855_committed-to-transformation-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Committed to Transformation</itunes:subtitle>
@@ -634,7 +634,7 @@
             <link>https://onefellowship.com/sermon/committed-to-community</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/c/0e20162429_1755028131_committed-to-community-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 10 Aug 2025 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 10 Aug 2025 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/c/0e20162429_1755028131_committed-to-community-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Committed to Community</itunes:subtitle>
@@ -648,7 +648,7 @@
             <link>https://onefellowship.com/sermon/all-in</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/a/0e20149272_1754607588_all-in-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 03 Aug 2025 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 03 Aug 2025 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/a/0e20149272_1754607588_all-in-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>All In</itunes:subtitle>
@@ -662,7 +662,7 @@
             <link>https://onefellowship.com/sermon/the-untraceable-way</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/t/0e20124085_1754071154_the-untraceable-way-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 27 Jul 2025 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 27 Jul 2025 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/t/0e20124085_1754071154_the-untraceable-way-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>The Untraceable Way</itunes:subtitle>
@@ -676,7 +676,7 @@
             <link>https://onefellowship.com/sermon/good-words-for-joy-and-peace</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/g/0e20047201_1753563751_good-words-for-joy-and-peace-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 20 Jul 2025 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 20 Jul 2025 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/g/0e20047201_1753563751_good-words-for-joy-and-peace-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Good Words for Joy and Peace</itunes:subtitle>
@@ -690,7 +690,7 @@
             <link>https://onefellowship.com/sermon/doxological-desire-in-the-desert</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/d/0e20023168_1752692500_doxological-desire-in-the-desert-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 13 Jul 2025 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 13 Jul 2025 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/d/0e20023168_1752692500_doxological-desire-in-the-desert-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Doxological Desire in the Desert</itunes:subtitle>
@@ -704,7 +704,7 @@
             <link>https://onefellowship.com/sermon/bold-for-the-name</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/b/0e20005147_1752081264_bold-for-the-name-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 06 Jul 2025 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 06 Jul 2025 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/b/0e20005147_1752081264_bold-for-the-name-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Bold for the Name</itunes:subtitle>
@@ -718,7 +718,7 @@
             <link>https://onefellowship.com/sermon/doxology-that-keeps</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/d/0e19990289_1751572663_doxology-that-keeps-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 29 Jun 2025 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 29 Jun 2025 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/d/0e19990289_1751572663_doxology-that-keeps-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Doxology that Keeps</itunes:subtitle>
@@ -732,7 +732,7 @@
             <link>https://onefellowship.com/sermon/give-your-justice</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/g/0e19970975_1751125836_give-your-justice-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 22 Jun 2025 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 22 Jun 2025 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/g/0e19970975_1751125836_give-your-justice-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Give Your Justice</itunes:subtitle>
@@ -746,7 +746,7 @@
             <link>https://onefellowship.com/sermon/to-him-who-is-able</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/t/0e19929487_1750446261_to-him-who-is-able-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 15 Jun 2025 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 15 Jun 2025 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/t/0e19929487_1750446261_to-him-who-is-able-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>To Him Who is Able</itunes:subtitle>
@@ -760,7 +760,7 @@
             <link>https://onefellowship.com/sermon/the-power-of-christs-love</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/t/0e19905336_1749671471_the-power-of-christs-love-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 08 Jun 2025 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 08 Jun 2025 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/t/0e19905336_1749671471_the-power-of-christs-love-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>The Power of Christ&apos;s Love</itunes:subtitle>
@@ -774,7 +774,7 @@
             <link>https://onefellowship.com/sermon/isaiahs-prayer</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/6/0e19819767_1748971792_6-1-25-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 01 Jun 2025 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 01 Jun 2025 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/6/0e19819767_1748971792_6-1-25-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Isaiah&apos;s Prayer</itunes:subtitle>
@@ -788,7 +788,7 @@
             <link>https://onefellowship.com/sermon/identity-in-christ</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/i/0e19819617_1748967266_identity-in-christ-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 25 May 2025 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 25 May 2025 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/i/0e19819617_1748967266_identity-in-christ-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Identity in Christ</itunes:subtitle>
@@ -802,7 +802,7 @@
             <link>https://onefellowship.com/sermon/peace-as-we-go</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/5/0e19740093_1747847182_5-18-25-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 18 May 2025 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 18 May 2025 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/5/0e19740093_1747847182_5-18-25-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Peace as We Go</itunes:subtitle>
@@ -816,7 +816,7 @@
             <link>https://onefellowship.com/sermon/a-mothers-prayer</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/a/0e19717724_1747238341_a-mothers-prayer-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 11 May 2025 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 11 May 2025 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/a/0e19717724_1747238341_a-mothers-prayer-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>A Mother&apos;s Prayer</itunes:subtitle>
@@ -830,7 +830,7 @@
             <link>https://onefellowship.com/sermon/confidence-in-the-resurrection</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/c/0e19691241_1746463991_confidence-in-the-resurrection-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 04 May 2025 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 04 May 2025 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/c/0e19691241_1746463991_confidence-in-the-resurrection-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Confidence in the Resurrection</itunes:subtitle>
@@ -844,7 +844,7 @@
             <link>https://onefellowship.com/sermon/responding-to-resurrection-power</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/r/0e19666829_1745869884_responding-to-resurrection-power-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 27 Apr 2025 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 27 Apr 2025 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/r/0e19666829_1745869884_responding-to-resurrection-power-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Responding to Resurrection Power</itunes:subtitle>
@@ -858,7 +858,7 @@
             <link>https://onefellowship.com/sermon/revealing-resurrection-power</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/r/0e19656581_1745615565_revealing-resurrection-power-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 20 Apr 2025 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 20 Apr 2025 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/r/0e19656581_1745615565_revealing-resurrection-power-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Revealing Resurrection Power</itunes:subtitle>
@@ -872,7 +872,7 @@
             <link>https://onefellowship.com/sermon/positioned-for-resurrection-power</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/p/0e19592109_1744986534_positioned-for-resurrection-power-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 13 Apr 2025 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 13 Apr 2025 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/p/0e19592109_1744986534_positioned-for-resurrection-power-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Positioned for Resurrection Power</itunes:subtitle>
@@ -886,7 +886,7 @@
             <link>https://onefellowship.com/sermon/one-fellowship-church</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/o/0e19490119_1744311848_one-fellowship-church-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 06 Apr 2025 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 06 Apr 2025 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/o/0e19490119_1744311848_one-fellowship-church-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>One Fellowship Church</itunes:subtitle>
@@ -900,7 +900,7 @@
             <link>https://onefellowship.com/sermon/on-contentment</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/o/0e19417634_1743540581_on-contentment-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 30 Mar 2025 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 30 Mar 2025 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/o/0e19417634_1743540581_on-contentment-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>On Contentment</itunes:subtitle>
@@ -914,7 +914,7 @@
             <link>https://onefellowship.com/sermon/ninth-commandment</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/n/0e19364677_1742935714_ninth-commandment-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 23 Mar 2025 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 23 Mar 2025 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/n/0e19364677_1742935714_ninth-commandment-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Ninth Commandment</itunes:subtitle>
@@ -928,7 +928,7 @@
             <link>https://onefellowship.com/sermon/generous-stewarsdhip</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/g/0e19308952_1742406186_generous-stewardship-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 16 Mar 2025 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 16 Mar 2025 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/g/0e19308952_1742406186_generous-stewardship-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Generous Stewarsdhip</itunes:subtitle>
@@ -942,7 +942,7 @@
             <link>https://onefellowship.com/sermon/seventh-commandment</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/s/0e19308937_1742405887_seventh-commandment-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 09 Mar 2025 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 09 Mar 2025 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/s/0e19308937_1742405887_seventh-commandment-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Seventh Commandment</itunes:subtitle>
@@ -956,7 +956,7 @@
             <link>https://onefellowship.com/sermon/hope-for-killers</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/h/0e19249701_1741371959_hope-for-killers-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 02 Mar 2025 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 02 Mar 2025 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/h/0e19249701_1741371959_hope-for-killers-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Hope For Killers</itunes:subtitle>
@@ -970,7 +970,7 @@
             <link>https://onefellowship.com/sermon/the-tale-of-power</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/t/0e19184101_1740595915_the-tale-of-power-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 23 Feb 2025 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 23 Feb 2025 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/t/0e19184101_1740595915_the-tale-of-power-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>The Tale of Power</itunes:subtitle>
@@ -984,7 +984,7 @@
             <link>https://onefellowship.com/sermon/we-honor-role-now-pt2</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/w/0e19137561_1740074445_we-honor-role-now-pt2-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 16 Feb 2025 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 16 Feb 2025 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/w/0e19137561_1740074445_we-honor-role-now-pt2-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>We Honor Role Now pt2</itunes:subtitle>
@@ -998,7 +998,7 @@
             <link>https://onefellowship.com/sermon/we-honor-role-now-pt1</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/w/0e19073689_1739392614_we-honor-role-now-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 09 Feb 2025 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 09 Feb 2025 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/w/0e19073689_1739392614_we-honor-role-now-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>We Honor Role Now pt1</itunes:subtitle>
@@ -1012,7 +1012,7 @@
             <link>https://onefellowship.com/sermon/dont-leave-disappointed</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/d/0e19020856_1738857480_dont-leave-disappointed-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 02 Feb 2025 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 02 Feb 2025 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/d/0e19020856_1738857480_dont-leave-disappointed-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Don&apos;t Leave Disappointed</itunes:subtitle>
@@ -1026,7 +1026,7 @@
             <link>https://onefellowship.com/sermon/forgiven-to-forgive</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/f/0e18993772_1738342276_forgiven-to-forgive-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 26 Jan 2025 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 26 Jan 2025 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/f/0e18993772_1738342276_forgiven-to-forgive-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Forgiven to Forgive</itunes:subtitle>
@@ -1040,7 +1040,7 @@
             <link>https://onefellowship.com/sermon/an-invitation-to-intimacy</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/a/0e18993647_1738339895_an-invitation-to-intimacy-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 19 Jan 2025 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 19 Jan 2025 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/a/0e18993647_1738339895_an-invitation-to-intimacy-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>An Invitation to Intimacy</itunes:subtitle>
@@ -1054,7 +1054,7 @@
             <link>https://onefellowship.com/sermon/the-lords-prayer</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/t/0e18993630_1738339631_the-lords-prayer-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 12 Jan 2025 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 12 Jan 2025 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/t/0e18993630_1738339631_the-lords-prayer-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>The Lord&apos;s Prayer</itunes:subtitle>
@@ -1068,7 +1068,7 @@
             <link>https://onefellowship.com/sermon/when-you-pray</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/j/0e18879986_1736287051_jesus-prayed-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 05 Jan 2025 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 05 Jan 2025 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/j/0e18879986_1736287051_jesus-prayed-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>When You Pray</itunes:subtitle>
@@ -1082,7 +1082,7 @@
             <link>https://onefellowship.com/sermon/a-right-now-word-that-transforms</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/a/0e18864484_1735849279_a-right-now-word-that-transforms-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 29 Dec 2024 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 29 Dec 2024 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/a/0e18864484_1735849279_a-right-now-word-that-transforms-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>A Right Now Word That Transforms</itunes:subtitle>
@@ -1096,7 +1096,7 @@
             <link>https://onefellowship.com/sermon/give-love-on-christmas-day</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/g/0e18846529_1735329603_give-love-on-christmas-day-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 22 Dec 2024 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 22 Dec 2024 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/g/0e18846529_1735329603_give-love-on-christmas-day-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Give Love on Christmas Day</itunes:subtitle>
@@ -1110,7 +1110,7 @@
             <link>https://onefellowship.com/sermon/the-kings-joy</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/t/0e18831055_1734725185_the-kings-joy-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 15 Dec 2024 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 15 Dec 2024 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/t/0e18831055_1734725185_the-kings-joy-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>The King&apos;s Joy</itunes:subtitle>
@@ -1124,7 +1124,7 @@
             <link>https://onefellowship.com/sermon/piece-of-peace</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/p/0e18813506_1734218828_piece-of-peace-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 08 Dec 2024 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 08 Dec 2024 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/p/0e18813506_1734218828_piece-of-peace-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Piece of Peace</itunes:subtitle>
@@ -1138,7 +1138,7 @@
             <link>https://onefellowship.com/sermon/sabbath-required</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/s/0e18813497_1734216440_sabbath-required-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 01 Dec 2024 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 01 Dec 2024 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/s/0e18813497_1734216440_sabbath-required-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Sabbath Required</itunes:subtitle>
@@ -1152,7 +1152,7 @@
             <link>https://onefellowship.com/sermon/his-great-name</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/h/0e18769165_1732917233_his-great-name-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 24 Nov 2024 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 24 Nov 2024 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/h/0e18769165_1732917233_his-great-name-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>His Great Name</itunes:subtitle>
@@ -1166,7 +1166,7 @@
             <link>https://onefellowship.com/sermon/selfies-of-god</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/s/0e18721837_1731966010_selfies-of-god-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 17 Nov 2024 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 17 Nov 2024 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/s/0e18721837_1731966010_selfies-of-god-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Selfies of God</itunes:subtitle>
@@ -1180,7 +1180,7 @@
             <link>https://onefellowship.com/sermon/first-commandment-ordered-love</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/f/0e18704908_1731524371_first-commandment-ordered-love-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 10 Nov 2024 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 10 Nov 2024 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/f/0e18704908_1731524371_first-commandment-ordered-love-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>First Commandment: Ordered Love</itunes:subtitle>
@@ -1194,7 +1194,7 @@
             <link>https://onefellowship.com/sermon/god-and-the-covenant</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/g/0e18677065_1730920144_god-and-his-people-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 03 Nov 2024 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 03 Nov 2024 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/g/0e18677065_1730920144_god-and-his-people-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>God and the Covenant</itunes:subtitle>
@@ -1208,7 +1208,7 @@
             <link>https://onefellowship.com/sermon/god-and-his-people</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/w/0e18652402_1730241689_worship-at-sinai-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 27 Oct 2024 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 27 Oct 2024 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/w/0e18652402_1730241689_worship-at-sinai-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>God and His People</itunes:subtitle>
@@ -1222,7 +1222,7 @@
             <link>https://onefellowship.com/sermon/life-lessons-in-the-wilderness</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/l/0e18652399_1730241300_life-lessons-in-the-wilderness-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 20 Oct 2024 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 20 Oct 2024 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/l/0e18652399_1730241300_life-lessons-in-the-wilderness-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Life Lessons in the Wilderness</itunes:subtitle>
@@ -1236,7 +1236,7 @@
             <link>https://onefellowship.com/sermon/bread-for-the-sabbath</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/b/0e18676993_1730919299_bread-for-the-sabbath-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 13 Oct 2024 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 13 Oct 2024 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/b/0e18676993_1730919299_bread-for-the-sabbath-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Bread for the Sabbath</itunes:subtitle>
@@ -1250,7 +1250,7 @@
             <link>https://onefellowship.com/sermon/when-god-asks-for-more</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/w/0e18599302_1728683146_we-must-respond-in-faith-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 13 Oct 2024 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 13 Oct 2024 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/w/0e18599302_1728683146_we-must-respond-in-faith-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>When God Asks For More</itunes:subtitle>
@@ -1264,7 +1264,7 @@
             <link>https://onefellowship.com/sermon/when-community-hurts-pt-2</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/w/0e18563584_1727728486_when-community-hurts-pt-2-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 29 Sep 2024 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 29 Sep 2024 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/w/0e18563584_1727728486_when-community-hurts-pt-2-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>When Community Hurts pt 2</itunes:subtitle>
@@ -1278,7 +1278,7 @@
             <link>https://onefellowship.com/sermon/color-us-love</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/c/0e18547462_1727298426_color-us-love-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 22 Sep 2024 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 22 Sep 2024 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/c/0e18547462_1727298426_color-us-love-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Color Us Love</itunes:subtitle>
@@ -1292,7 +1292,7 @@
             <link>https://onefellowship.com/sermon/when-community-hurts-pt-1</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/w/0e18671290_1730751066_when-community-hurts-pt-1-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 15 Sep 2024 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 15 Sep 2024 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/w/0e18671290_1730751066_when-community-hurts-pt-1-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>When Community Hurts pt 1</itunes:subtitle>
@@ -1306,7 +1306,7 @@
             <link>https://onefellowship.com/sermon/goodness-of-gathering</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/g/0e18504732_1726504785_goodness-of-gathering-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 08 Sep 2024 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 08 Sep 2024 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/g/0e18504732_1726504785_goodness-of-gathering-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Goodness of Gathering</itunes:subtitle>
@@ -1320,7 +1320,7 @@
             <link>https://onefellowship.com/sermon/holy-community</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/h/0e18458851_1725479482_holy-community-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 01 Sep 2024 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 01 Sep 2024 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/h/0e18458851_1725479482_holy-community-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Holy Community</itunes:subtitle>
@@ -1334,7 +1334,7 @@
             <link>https://onefellowship.com/sermon/look-like-your-father</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/l/0e18413798_1724363649_look-like-your-father-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 18 Aug 2024 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 18 Aug 2024 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/l/0e18413798_1724363649_look-like-your-father-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Look Like Your Father</itunes:subtitle>
@@ -1348,7 +1348,7 @@
             <link>https://onefellowship.com/sermon/following-jesus-will-cost-you-something-but-not-following-jesus-will-cost-you-everything</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/f/0e18386481_1723818768_following-jesus-will-cost-you-something-but-not-following-jesus-will-cost-you-everything-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 11 Aug 2024 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 11 Aug 2024 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/f/0e18386481_1723818768_following-jesus-will-cost-you-something-but-not-following-jesus-will-cost-you-everything-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Following Jesus will cost you something, but not following Jesus will cost you everything.</itunes:subtitle>
@@ -1362,7 +1362,7 @@
             <link>https://onefellowship.com/sermon/who-is-like-the-lord</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/w/0e18348954_1723050858_who-is-like-the-lord-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 04 Aug 2024 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 04 Aug 2024 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/w/0e18348954_1723050858_who-is-like-the-lord-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Who is Like the Lord</itunes:subtitle>
@@ -1376,7 +1376,7 @@
             <link>https://onefellowship.com/sermon/keep-calm-dont-carry-on</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/k/0e18317341_1722529308_keep-calm-dont-carry-on-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 28 Jul 2024 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 28 Jul 2024 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/k/0e18317341_1722529308_keep-calm-dont-carry-on-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Keep Calm.  Don&apos;t Carry On</itunes:subtitle>
@@ -1390,7 +1390,7 @@
             <link>https://onefellowship.com/sermon/praising-god-in-the-mourning</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/p/0e18290702_1721845157_praising-god-in-the-mourning-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 21 Jul 2024 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 21 Jul 2024 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/p/0e18290702_1721845157_praising-god-in-the-mourning-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Praising God in the Mourning</itunes:subtitle>
@@ -1404,7 +1404,7 @@
             <link>https://onefellowship.com/sermon/everything-the-blood-touches</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/e/0e18272872_1721403631_everything-the-blood-touches-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 14 Jul 2024 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 14 Jul 2024 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/e/0e18272872_1721403631_everything-the-blood-touches-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Everything the Blood Touches</itunes:subtitle>
@@ -1418,7 +1418,7 @@
             <link>https://onefellowship.com/sermon/words-of-grace</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/w/0e18234994_1720467596_words-of-grace-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 07 Jul 2024 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 07 Jul 2024 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/w/0e18234994_1720467596_words-of-grace-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Words of Grace</itunes:subtitle>
@@ -1432,7 +1432,7 @@
             <link>https://onefellowship.com/sermon/grace-for-all</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/g/0e18219543_1720030703_grace-for-all-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 30 Jun 2024 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 30 Jun 2024 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/g/0e18219543_1720030703_grace-for-all-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Grace for All</itunes:subtitle>
@@ -1446,7 +1446,7 @@
             <link>https://onefellowship.com/sermon/a-thorough-introduction</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/a/0e18201470_1719517687_a-thorough-introduction-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 23 Jun 2024 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 23 Jun 2024 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/a/0e18201470_1719517687_a-thorough-introduction-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>A Thorough Introduction</itunes:subtitle>
@@ -1460,7 +1460,7 @@
             <link>https://onefellowship.com/sermon/ive-got-this</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/i/0e18173368_1718824941_ive-got-this-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 16 Jun 2024 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 16 Jun 2024 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/i/0e18173368_1718824941_ive-got-this-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>I&apos;ve Got This</itunes:subtitle>
@@ -1474,7 +1474,7 @@
             <link>https://onefellowship.com/sermon/the-two-paths</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/t/0e18152639_1718231027_the-two-paths-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 09 Jun 2024 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 09 Jun 2024 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/t/0e18152639_1718231027_the-two-paths-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>The Two Paths</itunes:subtitle>
@@ -1488,7 +1488,7 @@
             <link>https://onefellowship.com/sermon/delivered-to-worship</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/d/0e18125809_1717547511_delivered-to-worship-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 02 Jun 2024 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 02 Jun 2024 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/d/0e18125809_1717547511_delivered-to-worship-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Delivered to Worship</itunes:subtitle>
@@ -1502,7 +1502,7 @@
             <link>https://onefellowship.com/sermon/trust-the-process-pt-2</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/t/0e18097976_1716933930_trust-the-process-pt-2-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 26 May 2024 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 26 May 2024 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/t/0e18097976_1716933930_trust-the-process-pt-2-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Trust the Process Pt. 2</itunes:subtitle>
@@ -1516,7 +1516,7 @@
             <link>https://onefellowship.com/sermon/trust-the-process-pt-i</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/p/0e18059600_1716242150_preparing-the-deliverer-pt-ii-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 19 May 2024 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 19 May 2024 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/p/0e18059600_1716242150_preparing-the-deliverer-pt-ii-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Trust the Process Pt. I</itunes:subtitle>
@@ -1530,7 +1530,7 @@
             <link>https://onefellowship.com/sermon/introduction-to-the-deliverer</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/i/0e18030015_1715628158_introduction-to-the-deliverer-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 12 May 2024 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 12 May 2024 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/i/0e18030015_1715628158_introduction-to-the-deliverer-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Introduction to the Deliverer</itunes:subtitle>
@@ -1544,7 +1544,7 @@
             <link>https://onefellowship.com/sermon/deliver-here</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/d/0e18005899_1715023967_deliver-here-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 05 May 2024 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 05 May 2024 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/d/0e18005899_1715023967_deliver-here-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Deliver Here</itunes:subtitle>
@@ -1558,7 +1558,7 @@
             <link>https://onefellowship.com/sermon/the-age-of-jubilee</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/t/0e17982968_1714502947_the-age-of-jubilee-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 28 Apr 2024 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 28 Apr 2024 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/t/0e17982968_1714502947_the-age-of-jubilee-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>The Age of Jubilee</itunes:subtitle>
@@ -1572,7 +1572,7 @@
             <link>https://onefellowship.com/sermon/a-blessed-invitation</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/w/0e17947945_1713822170_wedding-feast-of-the-lamb-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 21 Apr 2024 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 21 Apr 2024 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/w/0e17947945_1713822170_wedding-feast-of-the-lamb-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>A Blessed Invitation</itunes:subtitle>
@@ -1586,7 +1586,7 @@
             <link>https://onefellowship.com/sermon/a-burning-hope</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/r/0e17925912_1713215705_road-to-emmaus-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 14 Apr 2024 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 14 Apr 2024 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/r/0e17925912_1713215705_road-to-emmaus-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>A Burning Hope</itunes:subtitle>
@@ -1600,7 +1600,7 @@
             <link>https://onefellowship.com/sermon/a-church-worth-praising-god-for</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/a/0e17908704_1712778754_a-church-worth-praising-god-for-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 07 Apr 2024 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 07 Apr 2024 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/a/0e17908704_1712778754_a-church-worth-praising-god-for-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>A Church Worth Praising God For</itunes:subtitle>
@@ -1614,7 +1614,7 @@
             <link>https://onefellowship.com/sermon/resurrection-revelation</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/r/0e17908530_1712775732_resurrection-revelation-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 31 Mar 2024 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 31 Mar 2024 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/r/0e17908530_1712775732_resurrection-revelation-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Resurrection Revelation</itunes:subtitle>
@@ -1628,7 +1628,7 @@
             <link>https://onefellowship.com/sermon/take-and-eat</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/t/0e17854307_1711743091_take-and-eat-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 24 Mar 2024 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 24 Mar 2024 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/t/0e17854307_1711743091_take-and-eat-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Take and Eat</itunes:subtitle>
@@ -1642,7 +1642,7 @@
             <link>https://onefellowship.com/sermon/the-perfect-gift</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/t/0e17819805_1710956672_the-perfect-gift-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 17 Mar 2024 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 17 Mar 2024 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/t/0e17819805_1710956672_the-perfect-gift-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>The Perfect Gift</itunes:subtitle>
@@ -1656,7 +1656,7 @@
             <link>https://onefellowship.com/sermon/testimony-of-an-apostle-pt-5</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/t/0e17796528_1710530984_testimony-of-an-apostle-pt-5-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 10 Mar 2024 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 10 Mar 2024 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/t/0e17796528_1710530984_testimony-of-an-apostle-pt-5-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Testimony of an Apostle pt. 5</itunes:subtitle>
@@ -1670,7 +1670,7 @@
             <link>https://onefellowship.com/sermon/testimony-of-an-apostle-pt-4</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/t/0e17706808_1709934521_testimony-of-an-apostle-4-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 03 Mar 2024 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 03 Mar 2024 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/t/0e17706808_1709934521_testimony-of-an-apostle-4-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Testimony of an Apostle pt. 4</itunes:subtitle>
@@ -1684,7 +1684,7 @@
             <link>https://onefellowship.com/sermon/who-is-jesus-to-you</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/w/0e17151351_1708982188_who-is-jesus-to-you-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 25 Feb 2024 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 25 Feb 2024 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/w/0e17151351_1708982188_who-is-jesus-to-you-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Who is Jesus to You?</itunes:subtitle>
@@ -1698,7 +1698,7 @@
             <link>https://onefellowship.com/sermon/testimony-of-an-apostle-pt-3</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/t/0e17131028_1708464305_testimony-of-an-apostle-pt-3-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 18 Feb 2024 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 18 Feb 2024 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/t/0e17131028_1708464305_testimony-of-an-apostle-pt-3-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Testimony of an Apostle pt. 3</itunes:subtitle>
@@ -1712,7 +1712,7 @@
             <link>https://onefellowship.com/sermon/testimony-of-an-apostle-pt-2</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/t/0e17105136_1707855388_testimony-of-an-apostle-pt-2-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 11 Feb 2024 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 11 Feb 2024 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/t/0e17105136_1707855388_testimony-of-an-apostle-pt-2-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Testimony of an Apostle pt. 2</itunes:subtitle>
@@ -1726,7 +1726,7 @@
             <link>https://onefellowship.com/sermon/testimony-of-an-apostle-pt-1</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/t/0e17073704_1707322846_testimony-of-an-apostle-pt-1-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 04 Feb 2024 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 04 Feb 2024 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/t/0e17073704_1707322846_testimony-of-an-apostle-pt-1-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Testimony of an Apostle pt. 1</itunes:subtitle>
@@ -1740,7 +1740,7 @@
             <link>https://onefellowship.com/sermon/human-restored-reimagination</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/h/0e17037627_1706562082_humanity-restored-reimagination-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 28 Jan 2024 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 28 Jan 2024 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/h/0e17037627_1706562082_humanity-restored-reimagination-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Human Restored: Reimagination</itunes:subtitle>
@@ -1754,7 +1754,7 @@
             <link>https://onefellowship.com/sermon/humanity-restored-restitution</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/h/0e17012792_1705950808_humanity-restored-restitution-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 21 Jan 2024 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 21 Jan 2024 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/h/0e17012792_1705950808_humanity-restored-restitution-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Humanity Restored: Restitution</itunes:subtitle>
@@ -1768,7 +1768,7 @@
             <link>https://onefellowship.com/sermon/humanity-restored-reconciliation</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/h/0e17014374_1706023636_humanity-restored-reconciliation-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 14 Jan 2024 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 14 Jan 2024 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/h/0e17014374_1706023636_humanity-restored-reconciliation-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Humanity Restored: Reconciliation</itunes:subtitle>
@@ -1782,7 +1782,7 @@
             <link>https://onefellowship.com/sermon/humanity-restored</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/h/0e16971776_1704842694_humanity-restored-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 07 Jan 2024 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 07 Jan 2024 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/h/0e16971776_1704842694_humanity-restored-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Humanity Restored</itunes:subtitle>
@@ -1796,7 +1796,7 @@
             <link>https://onefellowship.com/sermon/jesus-great-desire</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/j/0e16951336_1704311711_jesus-great-desire-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 31 Dec 2023 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 31 Dec 2023 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/j/0e16951336_1704311711_jesus-great-desire-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Jesus&apos; Great Desire</itunes:subtitle>
@@ -1810,7 +1810,7 @@
             <link>https://onefellowship.com/sermon/king</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/k/0e16950889_1704305994_king-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 24 Dec 2023 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 24 Dec 2023 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/k/0e16950889_1704305994_king-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>King</itunes:subtitle>
@@ -1824,7 +1824,7 @@
             <link>https://onefellowship.com/sermon/priest-a-better-priest</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/p/0e16916754_1703093883_priest-a-better-priest-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 17 Dec 2023 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 17 Dec 2023 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/p/0e16916754_1703093883_priest-a-better-priest-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Priest: A Better Priest</itunes:subtitle>
@@ -1838,7 +1838,7 @@
             <link>https://onefellowship.com/sermon/prophet-a-better-word</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/p/0e16903235_1702794450_prophet-a-better-word-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 10 Dec 2023 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 10 Dec 2023 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/p/0e16903235_1702794450_prophet-a-better-word-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Prophet: A Better Word</itunes:subtitle>
@@ -1852,7 +1852,7 @@
             <link>https://onefellowship.com/sermon/the-hero-we-need</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/t/0e16872094_1701901434_the-hero-we-need-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 03 Dec 2023 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 03 Dec 2023 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/t/0e16872094_1701901434_the-hero-we-need-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>The Hero We Need</itunes:subtitle>
@@ -1866,7 +1866,7 @@
             <link>https://onefellowship.com/sermon/remedy-for-the-blues</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/r/0e16845507_1701217329_remedy-for-the-blues-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 26 Nov 2023 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 26 Nov 2023 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/r/0e16845507_1701217329_remedy-for-the-blues-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Remedy for the Blues</itunes:subtitle>
@@ -1880,7 +1880,7 @@
             <link>https://onefellowship.com/sermon/discipleship-in-the-trenches</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/d/0e16833520_1700966171_discipleship-in-the-trenches-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 19 Nov 2023 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 19 Nov 2023 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/d/0e16833520_1700966171_discipleship-in-the-trenches-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Discipleship in the Trenches</itunes:subtitle>
@@ -1894,7 +1894,7 @@
             <link>https://onefellowship.com/sermon/the-church-in-the-trenches</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/t/0e16790725_1699899650_the-church-in-the-trenches-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 12 Nov 2023 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 12 Nov 2023 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/t/0e16790725_1699899650_the-church-in-the-trenches-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>The Church in the Trenches</itunes:subtitle>
@@ -1908,7 +1908,7 @@
             <link>https://onefellowship.com/sermon/image-loading</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/i/0e16777345_1699562155_image-loading-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 05 Nov 2023 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 05 Nov 2023 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/i/0e16777345_1699562155_image-loading-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Image Loading</itunes:subtitle>
@@ -1922,7 +1922,7 @@
             <link>https://onefellowship.com/sermon/the-upside-down-kingdom</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/t/0e16735524_1698687882_the-upside-down-kingdom-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 29 Oct 2023 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 29 Oct 2023 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/t/0e16735524_1698687882_the-upside-down-kingdom-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>The Upside Down Kingdom</itunes:subtitle>
@@ -1936,7 +1936,7 @@
             <link>https://onefellowship.com/sermon/deliverance-is-communal</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/d/0e16712337_1698076476_deliverance-is-communal-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 22 Oct 2023 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 22 Oct 2023 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/d/0e16712337_1698076476_deliverance-is-communal-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Deliverance is Communal</itunes:subtitle>
@@ -1950,7 +1950,7 @@
             <link>https://onefellowship.com/sermon/he-does-it-his-way</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/h/0e16683855_1697495573_he-does-it-his-way-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 15 Oct 2023 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 15 Oct 2023 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/h/0e16683855_1697495573_he-does-it-his-way-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>He Does it His Way</itunes:subtitle>
@@ -1964,7 +1964,7 @@
             <link>https://onefellowship.com/sermon/the-cost-of-the-future</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/t/0e16683858_1697496079_the-cost-of-the-future-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 08 Oct 2023 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 08 Oct 2023 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/t/0e16683858_1697496079_the-cost-of-the-future-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>The Cost of the Future</itunes:subtitle>
@@ -1978,7 +1978,7 @@
             <link>https://onefellowship.com/sermon/its-hard-being-one</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/d/0e16621950_1696272210_disagreements-and-disunity-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 01 Oct 2023 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 01 Oct 2023 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/d/0e16621950_1696272210_disagreements-and-disunity-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>It&apos;s Hard Being One</itunes:subtitle>
@@ -1992,7 +1992,7 @@
             <link>https://onefellowship.com/sermon/them-too-pt-3</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/t/0e16593573_1695764444_them-too-part-3-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 24 Sep 2023 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 24 Sep 2023 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/t/0e16593573_1695764444_them-too-part-3-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Them Too pt. 3</itunes:subtitle>
@@ -2006,7 +2006,7 @@
             <link>https://onefellowship.com/sermon/unleashed-for-the-mission</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/u/0e16557807_1695339525_unleashed-for-the-mission-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 17 Sep 2023 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 17 Sep 2023 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/u/0e16557807_1695339525_unleashed-for-the-mission-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Unleashed for the Mission</itunes:subtitle>
@@ -2020,7 +2020,7 @@
             <link>https://onefellowship.com/sermon/ive-got-the-power</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/i/0e16513036_1694921385_ive-got-the-power-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 10 Sep 2023 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 10 Sep 2023 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/i/0e16513036_1694921385_ive-got-the-power-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>I&apos;ve Got the Power</itunes:subtitle>
@@ -2034,7 +2034,7 @@
             <link>https://onefellowship.com/sermon/suffering</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/s/0e16435165_1694019199_suffering-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 03 Sep 2023 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 03 Sep 2023 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/s/0e16435165_1694019199_suffering-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Suffering</itunes:subtitle>
@@ -2048,7 +2048,7 @@
             <link>https://onefellowship.com/sermon/remedy-for-doubt</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/r/0e16396818_1693421510_remedy-for-doubt-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 27 Aug 2023 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 27 Aug 2023 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/r/0e16396818_1693421510_remedy-for-doubt-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Remedy for Doubt</itunes:subtitle>
@@ -2062,7 +2062,7 @@
             <link>https://onefellowship.com/sermon/its-better-in-the-light</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/i/0e16342343_1692735193_its-better-in-the-light-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 20 Aug 2023 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 20 Aug 2023 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/i/0e16342343_1692735193_its-better-in-the-light-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>It&apos;s Better in the Light</itunes:subtitle>
@@ -2076,7 +2076,7 @@
             <link>https://onefellowship.com/sermon/believe-to-belong</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/b/0e16289577_1692040225_believe-to-belong-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 13 Aug 2023 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 13 Aug 2023 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/b/0e16289577_1692040225_believe-to-belong-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Believe to Belong</itunes:subtitle>
@@ -2090,7 +2090,7 @@
             <link>https://onefellowship.com/sermon/universal-situation</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/u/0e16289535_1692039856_universal-situation-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 06 Aug 2023 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 06 Aug 2023 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/u/0e16289535_1692039856_universal-situation-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Universal Situation</itunes:subtitle>
@@ -2104,7 +2104,7 @@
             <link>https://onefellowship.com/sermon/why-you-are-a-new-creation</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/w/0e16224739_1691009730_why-you-are-a-new-creation-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 30 Jul 2023 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 30 Jul 2023 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/w/0e16224739_1691009730_why-you-are-a-new-creation-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Why you are a New Creation</itunes:subtitle>
@@ -2118,7 +2118,7 @@
             <link>https://onefellowship.com/sermon/god-doesnt-change</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/g/0e16192040_1690384243_god-doesnt-change-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 23 Jul 2023 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 23 Jul 2023 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/g/0e16192040_1690384243_god-doesnt-change-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>God Doesn&apos;t Change</itunes:subtitle>
@@ -2132,7 +2132,7 @@
             <link>https://onefellowship.com/sermon/good-day-for-a-neighbor</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/a/0e16165928_1689892336_a-good-day-for-a-neighbor-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 16 Jul 2023 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 16 Jul 2023 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/a/0e16165928_1689892336_a-good-day-for-a-neighbor-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Good  Day for a Neighbor</itunes:subtitle>
@@ -2146,7 +2146,7 @@
             <link>https://onefellowship.com/sermon/resurrection-paradigm</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/r/0e16165854_1689889435_resurrection-paradigm-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 09 Jul 2023 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 09 Jul 2023 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/r/0e16165854_1689889435_resurrection-paradigm-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Resurrection Paradigm</itunes:subtitle>
@@ -2160,7 +2160,7 @@
             <link>https://onefellowship.com/sermon/3-ps-of-the-first-church</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/3/0e16119011_1688906373_3-ps-of-the-first-church-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 02 Jul 2023 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 02 Jul 2023 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/3/0e16119011_1688906373_3-ps-of-the-first-church-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>3 P&apos;s of the First Church</itunes:subtitle>
@@ -2174,7 +2174,7 @@
             <link>https://onefellowship.com/sermon/i-got-everything-i-need</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/i/0e16119009_1688906153_i-got-everything-i-need-audi.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 25 Jun 2023 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 25 Jun 2023 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/i/0e16119009_1688906153_i-got-everything-i-need-audi.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>I Got Everything I Need</itunes:subtitle>
@@ -2188,7 +2188,7 @@
             <link>https://onefellowship.com/sermon/whats-love-got-to-do-with-it</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/w/0e16047604_1687676947_whats-love-got-to-do-with-it-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 18 Jun 2023 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 18 Jun 2023 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/w/0e16047604_1687676947_whats-love-got-to-do-with-it-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>What&apos;s Love Got To Do With It</itunes:subtitle>
@@ -2202,7 +2202,7 @@
             <link>https://onefellowship.com/sermon/the-shepherd-you-can-trust</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/t/0e16005008_1686777740_the-shepherd-you-can-trust-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 11 Jun 2023 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 11 Jun 2023 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/t/0e16005008_1686777740_the-shepherd-you-can-trust-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>The Shepherd You Can Trust</itunes:subtitle>
@@ -2216,7 +2216,7 @@
             <link>https://onefellowship.com/sermon/them-too-pt-2</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/t/0e15986368_1686262963_them-too-pt-2-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 04 Jun 2023 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 04 Jun 2023 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/t/0e15986368_1686262963_them-too-pt-2-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Them Too pt. 2</itunes:subtitle>
@@ -2230,7 +2230,7 @@
             <link>https://onefellowship.com/sermon/them-too-pt-1</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/t/0e15942588_1685250638_them-too-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 21 May 2023 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 21 May 2023 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/t/0e15942588_1685250638_them-too-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Them Too pt. 1</itunes:subtitle>
@@ -2244,7 +2244,7 @@
             <link>https://onefellowship.com/sermon/a-faith-that-is-in-danger</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/a/0e15907103_1684435585_a-faith-that-is-in-danger-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 14 May 2023 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 14 May 2023 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/a/0e15907103_1684435585_a-faith-that-is-in-danger-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>A Faith that is in Danger</itunes:subtitle>
@@ -2258,7 +2258,7 @@
             <link>https://onefellowship.com/sermon/responding-to-persecution</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/r/0e15873262_1683829694_responding-to-persecution-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 07 May 2023 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 07 May 2023 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/r/0e15873262_1683829694_responding-to-persecution-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Responding to Persecution</itunes:subtitle>
@@ -2272,7 +2272,7 @@
             <link>https://onefellowship.com/sermon/4th-year-anniversary-service</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/4/0e15836860_1683254760_4th-year-anniversary-service-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 30 Apr 2023 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 30 Apr 2023 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/4/0e15836860_1683254760_4th-year-anniversary-service-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>4th Year Anniversary Service</itunes:subtitle>
@@ -2286,7 +2286,7 @@
             <link>https://onefellowship.com/sermon/why-church-pt2</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/w/0e15802869_1682524743_why-church-pt2-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 23 Apr 2023 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 23 Apr 2023 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/w/0e15802869_1682524743_why-church-pt2-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Why Church? pt.2</itunes:subtitle>
@@ -2300,7 +2300,7 @@
             <link>https://onefellowship.com/sermon/why-church-pt-1</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/w/0e15776375_1681932043_why-church-pt-1-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 16 Apr 2023 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 16 Apr 2023 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/w/0e15776375_1681932043_why-church-pt-1-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Why Church? pt. 1</itunes:subtitle>
@@ -2314,7 +2314,7 @@
             <link>https://onefellowship.com/sermon/belonging-to-jesus-changes-everything</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/b/0e15776531_1681934719_belonging-to-jesus-changes-everything-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 09 Apr 2023 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 09 Apr 2023 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/b/0e15776531_1681934719_belonging-to-jesus-changes-everything-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Belonging to Jesus Changes Everything</itunes:subtitle>
@@ -2328,7 +2328,7 @@
             <link>https://onefellowship.com/sermon/organizing-the-church</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/o/0e15680079_1680647962_organizing-the-church-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 02 Apr 2023 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 02 Apr 2023 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/o/0e15680079_1680647962_organizing-the-church-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Organizing the Church</itunes:subtitle>
@@ -2342,7 +2342,7 @@
             <link>https://onefellowship.com/sermon/proof-of-power</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/p/0e15650888_1680229243_proof-of-power-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 26 Mar 2023 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 26 Mar 2023 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/p/0e15650888_1680229243_proof-of-power-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Proof of Power</itunes:subtitle>
@@ -2356,7 +2356,7 @@
             <link>https://onefellowship.com/sermon/sin-in-the-church</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/s/0e15650883_1680229068_sin-in-the-church-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 19 Mar 2023 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 19 Mar 2023 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/s/0e15650883_1680229068_sin-in-the-church-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Sin in the Church</itunes:subtitle>
@@ -2370,7 +2370,7 @@
             <link>https://onefellowship.com/sermon/handling-hostility-to-the-gospel</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/h/0e15553552_1678832058_handling-hostility-to-the-gospel-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 12 Mar 2023 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 12 Mar 2023 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/h/0e15553552_1678832058_handling-hostility-to-the-gospel-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Handling Hostility to the Gospel</itunes:subtitle>
@@ -2384,7 +2384,7 @@
             <link>https://onefellowship.com/sermon/all-about-jesus</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/a/0e15528574_1678402597_all-about-jesus-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 05 Mar 2023 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 05 Mar 2023 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/a/0e15528574_1678402597_all-about-jesus-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>All About Jesus</itunes:subtitle>
@@ -2398,7 +2398,7 @@
             <link>https://onefellowship.com/sermon/the-church-living-as-a-community</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/t/0e15484318_1677529181_the-church-living-as-a-community-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 26 Feb 2023 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 26 Feb 2023 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/t/0e15484318_1677529181_the-church-living-as-a-community-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>The Church Living as a Community</itunes:subtitle>
@@ -2412,7 +2412,7 @@
             <link>https://onefellowship.com/sermon/the-coming-of-the-holy-spirit</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/t/0e15470632_1677195670_the-coming-of-the-holy-spirit-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 19 Feb 2023 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 19 Feb 2023 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/t/0e15470632_1677195670_the-coming-of-the-holy-spirit-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>The Coming of the Holy Spirit</itunes:subtitle>
@@ -2426,7 +2426,7 @@
             <link>https://onefellowship.com/sermon/while-we-wait</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/w/0e15429865_1676500750_while-we-wait-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 12 Feb 2023 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 12 Feb 2023 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/w/0e15429865_1676500750_while-we-wait-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>While We Wait</itunes:subtitle>
@@ -2440,7 +2440,7 @@
             <link>https://onefellowship.com/sermon/the-introduction-to-the-mission</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/t/0e15392559_1675719126_the-introduction-to-the-mission-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 05 Feb 2023 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 05 Feb 2023 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/t/0e15392559_1675719126_the-introduction-to-the-mission-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>The Introduction to the Mission</itunes:subtitle>
@@ -2454,7 +2454,7 @@
             <link>https://onefellowship.com/sermon/wisdom-works</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/w/0e15375105_1675289754_wisdom-works-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 29 Jan 2023 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 29 Jan 2023 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/w/0e15375105_1675289754_wisdom-works-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Wisdom Works</itunes:subtitle>
@@ -2468,7 +2468,7 @@
             <link>https://onefellowship.com/sermon/body-matters</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/b/0e15347519_1674694179_body-matters-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 22 Jan 2023 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 22 Jan 2023 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/b/0e15347519_1674694179_body-matters-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Body Matters</itunes:subtitle>
@@ -2482,7 +2482,7 @@
             <link>https://onefellowship.com/sermon/relationships-101</link>
             <guid isPermaLink="false">https://s3.amazonaws.com/account-media/20850/uploaded/r/0e15321881_1674084111_relationships-101-audio.mp3</guid>
             <dc:creator><![CDATA[One Fellowship Church]]></dc:creator>
-            <pubDate>Sun, 15 Jan 2023 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 15 Jan 2023 12:00:00 GMT</pubDate>
             <enclosure url="https://s3.amazonaws.com/account-media/20850/uploaded/r/0e15321881_1674084111_relationships-101-audio.mp3" length="0" type="audio/mpeg"/>
             <itunes:author>One Fellowship Church</itunes:author>
             <itunes:subtitle>Relationships 101</itunes:subtitle>

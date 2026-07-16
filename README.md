@@ -13,7 +13,7 @@ podpull is a tool for pulling audio from the web and publishing podcast feeds au
 ## How It Works
 
 1. **First Run**: Scrapes all available sermons from the church website
-2. **Weekly Updates**: Automatically fetches new sermons every Sunday at 2 AM UTC
+2. **Scheduled Updates**: GitHub Actions fetches newly available sermons on a schedule
 3. **RSS Generation**: Creates a podcast-compatible RSS feed with iTunes tags
 4. **GitHub Pages**: Feed is automatically committed and can be hosted via GitHub Pages
 
@@ -79,15 +79,19 @@ const rssXml = generateRSSFeed(allSermons, {
 
 ## Testing
 
-To test with mock data (useful when the website is unreachable):
-
 ```bash
-USE_MOCK_DATA=true npm start
+npm test
 ```
+
+Tests use saved church-page fixtures and never overwrite `feed.xml` or `sermons.json`.
+
+## Sermon dates
+
+PodPull stores the date displayed on the church sermon listing as the sermon’s event date. The RSS timestamp uses a daytime UTC anchor so a Sunday sermon remains Sunday in US podcast apps, even when the audio is uploaded later.
 
 ## Requirements
 
-- Node.js 18 or higher
+- Node.js 20 or higher
 - npm dependencies (automatically installed):
   - `axios` - HTTP client for web scraping
   - `cheerio` - HTML parsing
