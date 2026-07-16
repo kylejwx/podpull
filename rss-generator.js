@@ -1,5 +1,6 @@
 const RSS = require('rss');
 const fs = require('fs').promises;
+const { getSermonDate } = require('./date-utils');
 
 /**
  * Generate RSS feed from sermon data
@@ -19,6 +20,10 @@ function generateRSSFeed(sermons, options = {}) {
     categories = ['Religion & Spirituality', 'Christianity']
   } = options;
 
+  // Sort sermons by their event date (newest first).
+  const sortedSermons = [...sermons].sort((a, b) => getSermonDate(b) - getSermonDate(a));
+  const feedDate = sortedSermons.length > 0 ? getSermonDate(sortedSermons[0]) : new Date();
+
   const feed = new RSS({
     title,
     description,
@@ -28,7 +33,7 @@ function generateRSSFeed(sermons, options = {}) {
     image_url: imageUrl,
     author,
     categories,
-    pubDate: new Date(),
+    pubDate: feedDate,
     ttl: 60,
     custom_namespaces: {
       itunes: 'http://www.itunes.com/dtds/podcast-1.0.dtd'
@@ -46,16 +51,9 @@ function generateRSSFeed(sermons, options = {}) {
     ]
   });
 
-  // Sort sermons by date (newest first)
-  const sortedSermons = [...sermons].sort((a, b) => {
-    const dateA = new Date(a.pubDate);
-    const dateB = new Date(b.pubDate);
-    return dateB - dateA;
-  });
-
   // Add each sermon as an item
   sortedSermons.forEach(sermon => {
-    const pubDate = new Date(sermon.pubDate);
+    const pubDate = getSermonDate(sermon);
     
     feed.item({
       title: sermon.title,

@@ -15,7 +15,7 @@ This implementation provides a complete automated sermon podcast feed generator 
    - Scrapes sermon metadata from https://onefellowship.com/sermons/
    - Looks for direct AWS/MonkCMS download links
    - Multiple fallback selectors for different website structures
-   - Mock data generation for testing
+   - Fixture-based parsing tests for the church site structure
    - Error handling with graceful degradation
 
 3. **rss-generator.js** - RSS feed generation
@@ -66,9 +66,9 @@ npm install
 npm start
 ```
 
-### With Mock Data (for testing)
+### Automated tests
 ```bash
-USE_MOCK_DATA=true npm start
+npm test
 ```
 
 ### GitHub Actions
@@ -97,6 +97,5 @@ const rssXml = generateRSSFeed(allSermons, {
 
 ## Security
 
-- All dependencies checked for vulnerabilities ✓
-- CodeQL security analysis passed ✓
-- No secrets or credentials required ✓
+- No secrets or credentials are required by the application.
+- Run `npm audit` before dependency upgrades and use the workflow checks to catch regressions.
